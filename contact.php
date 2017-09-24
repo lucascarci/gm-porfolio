@@ -32,5 +32,5 @@
                 <a href="#"><img height="17px;" src ="images/twittericon.png" class="about__icon"></a>
 
   </body>
-  <script type="text/javascript" src="../scripts/tooltip.js"></script>
+  <script type="text/javascript" src="scripts/tooltip.js"></script>
 </html> 

@@ -3,6 +3,9 @@ var ss; //ss = sandbox style
 var images = 8;
 var tool;
 var content;
+var spani;
+
+
 
 // for (i = 0; i < images; i++) {
 // 	sandboxElement = document.createElement("img");
@@ -17,25 +20,30 @@ var content;
 // }
 
 
+
 for (i = 0; i < images; i++) {
+
 	
 	tool = document.createElement("a");
 	tool.className = "tooltip";
-	tool.id = "tooltip-span"+i;
+	tool.id = "tool" + i;
 
 	content = document.createElement('img');
 	content.className="sandbox__exploration";
 	content.id="sandy" + i;
 
-	document.getElementById("sand").appendChild(tool);
-	document.getElementById("tooltip-span"+i).appendChild(content);
+	spani = document.createElement('span');
+	spani.id = "tooltip-span";
+	spani.innerHTML="Hello World!";
 
-	console.log(tool,content);
+	document.getElementById("sand").appendChild(tool);
+	document.getElementById("tool" + i ).appendChild(content);
+	document.getElementById("tool" + i ).appendChild(spani);
+
+	console.log(tool,content,spani);
 	document.getElementById("sandy" + i).src = "images/gifs/0" + i + ".gif";
 
 }
-
-
 
 
 

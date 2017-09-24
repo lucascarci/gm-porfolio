@@ -16,9 +16,10 @@
     <div id="sand" class="sandbox">
         
     </div>
-
     
 
+
   </body>
-  <script type="text/javascript" src="../scripts/sandbox.js"></script>
+  <script type="text/javascript" src="scripts/javascript.js"></script>
+  <script type="text/javascript" src="scripts/tooltip.js"></script>
 </html> 
