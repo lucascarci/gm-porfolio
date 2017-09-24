@@ -563,7 +563,6 @@ body {
 .project-info {
 	width: 100%;
 	margin: 0 auto;
-	min-height: 355px;
 	height: auto;
 	padding-top: 20px;
 	text-align: center;
@@ -595,7 +594,7 @@ body {
 	}
 	@include e('right') {
 		float: right;
-		width: 25%;
+		width: 20%;
 		height: 50px;
 		text-align: right;
 		text-decoration: underline;
@@ -630,11 +629,12 @@ body {
 	}
 
 	@include e('center') {
-		width: 50%;
+		width: 52%;
 		height: auto;
 		float: left;
 		margin-bottom: 50px;
 		margin-top: 10px;
+		margin-left: 3%;
 		text-align: left;
 		@media only screen and (max-width: 765px){
 			width: 60%;
