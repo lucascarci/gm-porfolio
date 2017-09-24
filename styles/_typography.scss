@@ -1,0 +1,75 @@
+@import 'var.scss';
+
+
+
+%body-family {
+	font-family:"MaisonNeue-Medium", sans-serif;
+	color:$type-blk;
+}
+
+%mono-family {
+	font-family:"MaisonNeue-Mono", sans-serif;
+	color:$type-blk;
+}
+
+%title-family {
+	font-family:"MaisonNeue-Bold", sans-serif;
+	color:$type-blk;
+}
+
+%demi-family {
+	font-family:"MaisonNeue-Demi", sans-serif;
+	color:$type-blk;
+}
+
+%med-family {
+	font-family:"MaisonNeue-Medium", sans-serif;
+	color:$type-blk;
+}
+
+
+
+
+%body-copy {
+	@extend %body-family;
+	font-size:1rem;
+	line-height:1.2rem;
+	letter-spacing:0rem;
+}
+
+
+%title-copy {
+	@extend %title-family;
+	font-size:1.3rem;
+	line-height:2rem;
+	letter-spacing:0.05rem;
+}
+
+%mono-copy {
+	@extend %mono-family;
+	font-size:0.68rem;
+	line-height:1.33rem;
+	word-spacing: 0.05rem;
+	text-transform: uppercase;
+
+}
+
+.subtitle-copy {
+	font-family: "MaisonNeue-Mono", sans-serif;
+	font-size: 0.7rem ;
+	line-height: 1.5rem ;
+	letter-spacing:0.05rem;
+	color:$type-blk;
+}
+
+.page-title-cus {
+	@extend %title-family;
+	font-size:14rem;
+	line-height:4rem;
+	letter-spacing:0.05rem;
+}
+
+
+
+
+

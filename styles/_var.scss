@@ -1,0 +1,53 @@
+$type-blk: hsl(0,0%,25%);
+$fill-blk: hsl(0,0%,10%);
+$li-grey: hsl(0,0%,96%);
+$orange: hsl(15,94,54);
+$yellow: hsl(47,98,50);
+$blu: hsl(220,89,45);
+$rd: hsl(360,100%,50%);
+$v-center-nav: 33px;
+
+
+
+@mixin e($element) {
+	&__#{$element} {
+		@content;
+	}
+}
+
+@mixin m($modifier) {
+	&--#{$modifier} {
+		@content;
+	}
+}
+
+
+// ::selection {
+//   background: hsl(47,98,50);
+// }
+// ::-moz-selection {
+//   background: hsl(47,98,50);
+// }
+
+
+
+
+
+
+// $mobile: 765px;
+// $desktop: 1100px;
+// $desk-large: 1200px;
+
+// @mixin breakpoint($point) {
+//    @if $point == desktop {
+//      @media only screen and (min-width: 1200px){ @content ; }
+//   }
+//    @else if $point == laptop {
+//      @media only screen and (max-width: 765px){ @content ; }
+//   }
+    
+// }
+
+// 	@include breakpoint($mobile) {
+// 		font-size: 3.375rem;
+// 	}

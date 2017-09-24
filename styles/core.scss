@@ -1,0 +1,1037 @@
+@import '_typography.scss';
+@import '_var.scss';
+
+@mixin center {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   -webkit-transform: translate(-50%,-50%);
+}
+@mixin v-center {
+   position: absolute;
+   top: 50%;
+   left: 0%;
+   transform: translate(-50%,-50%);
+   -webkit-transform: translate(-50%,-50%);
+}
+
+
+@mixin bgImage ($link,$repeat,$pos, $size) {
+	background-image: url($link);
+	background-repeat: $repeat;
+	background-position: $pos;
+	background-size: $size;
+}
+
+@mixin triangle ($tri,$right_tri){
+	border-top: $tri solid transparent;
+  	border-bottom: $tri solid transparent;
+  	border-left: $tri solid transparent;
+	border-left: $tri solid $right_tri;
+}
+
+@mixin imageLeft() {
+	float: left;
+	height: 25vw;
+	max-height: 450px;
+	width: 47%;
+	margin-right: 3%;
+	background-color: $orange;
+	clear: none;
+	margin-bottom: 60px;
+	@media only screen and (max-width: 765px) {
+		width: 100%;
+		float: none;
+		height: 50vw;
+		min-height: 200px;
+		max-height: 700px;
+		margin: 40px 0px 20px 0px;		
+	}
+}
+
+@mixin imageRight() {
+	float: left;
+	height: 25vw;
+	max-height: 450px;
+	width: 47%;
+	margin-left: 3%; 
+	background-color: $blu;
+	clear: none;
+	margin-bottom: 60px;
+	@media only screen and (max-width: 765px) {
+		width: 100%;
+		height: 50vw;
+		float: none;
+		min-height: 200px;
+		max-height: 700px;
+		margin: 40px 0px 20px 0px;
+	}
+}
+
+
+// 
+body {
+	margin: 0 auto;
+	@extend %mono-copy;
+	text-transform: none;
+
+	a:active {
+		color: red;
+		text-decoration: none;
+	}
+
+	a:visited {
+		text-decoration: none;
+		color: $type-blk;
+	}
+
+	a:link {
+		text-decoration: none;
+		color: $type-blk;
+	
+	}
+	
+}
+
+
+//b   d8    db    888 8b  8 
+//YbmdP8   dPYb    8  8Ybm8 
+//  "  8  dPwwYb   8  8  "8 
+//     8 dP    Yb 888 8   8 
+                         
+  .main-container {
+	width:90%;
+	height: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	font-size: 0.81rem;
+	@extend %body-family;
+
+  }  
+
+
+
+.page__header {
+	width: 88%;
+	line-height: 3rem;
+	color: $fill-blk;
+	// margin-bottom: 20px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	height: auto;
+	// background-color: red;
+
+
+	@include m('mobile') {
+		@media only screen and (max-width: 765px) {
+			margin-left: $v-center-nav;
+		}
+	}
+
+	@include m('title') {
+		@extend %title-family;
+		font-size: 3rem;
+		text-transform: none;
+		text--webkit-transform: none;
+		@media only screen and (max-width: 765px) {
+			font-size: 2rem;
+		}
+	}
+	@include m('description') {
+		@extend %mono-family;
+		font-size: 0.7rem;
+		width: 50%;
+		min-width: 280px; 
+		line-height: 1.3rem;
+		text-transform: uppercase;
+		-webkit-text-transform: uppercase;
+	}
+	@include m('return') {
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		text-decoration: underline;
+		@extend %mono-family;
+		font-size: 0.7rem;
+	}
+
+
+
+
+}
+
+
+//88b. 888b. 8888    db    8  dP 888b. .d88b. 888 8b  8 88888 
+//wwwP 8  .8 8www   dPYb   8wdP  8  .8 8P  Y8  8  8Ybm8   8   
+//   b 8wwK' 8     dPwwYb  88Yb  8wwP' 8b  d8  8  8  "8   8   
+//88P' 8  Yb 8888 dP    Yb 8  Yb 8     `Y88P' 888 8   8   8   
+
+
+
+                                                             
+@media only screen and (min-width: 1200px){
+  .main-container {
+  	max-width: 1450px;
+  }
+}
+
+//TABLET + MOBILE
+@media only screen and (max-width: 765px){
+  .main-container {
+	width:100%;
+	height: 100%;
+	max-width: 100%; 
+	margin: 0 auto;
+	position: relative;
+  }
+
+  .project-info {
+  	width: 88%;
+  }
+
+  .project-body {
+  	columns:1;
+  }
+
+  .nav-container {
+  	ul {
+  		margin-right: $v-center-nav;
+  	}
+
+  	.nav-wordmark {
+  		margin-left: $v-center-nav;
+  	}
+  }
+}
+
+
+
+
+
+
+//b  8    db  Yb    dP 888 .d88b.    db   88888 888 .d88b. 8b  8 
+//Ybm8   dPYb  Yb  dP   8  8P  ww   dPYb    8    8  8P  Y8 8Ybm8 
+//  "8  dPwwYb  YbdP    8  8b  d8  dPwwYb   8    8  8b  d8 8  "8 
+//   8 dP    Yb  YP    888 `Y88P' dP    Yb  8   888 `Y88P' 8   8 
+
+
+.nav-container {
+	@extend %body-family;
+	width: 100%;
+	height: 80px;
+	line-height: 5rem;	
+	
+	a {
+		text-decoration: none;
+
+		&:hover {
+			border-top: 2px solid black;
+		}
+	}	
+
+	ul {
+		display: inline;
+		padding-left: 0px;
+		list-style: none;
+
+		li {
+			display: inline;
+			list-style: none;
+			padding: 0px;
+			margin-left: 15px;
+			@media only screen and (max-width: 375px) {
+				margin-left: 5px;
+			}
+		}
+	}
+
+
+	.nav-menus {
+		float: right;
+		font-size: 0.81rem;
+
+	}
+	
+	.nav-menus-action {
+		padding-top: 3px;
+	}
+
+
+	.nav-wordmark {
+		float: left;
+		font-size: 0.81rem;
+		 
+	}
+}
+
+.mobile-hidden {
+	@media only screen and (max-width: 355px) {
+		display: none;
+	}
+}
+
+
+
+//888 .d88b. .d88b. 88888 8888 888b. 
+//www 8P  Y8 8P  Y8   8   8www 8  .8 
+//    8b  d8 8b  d8   8   8    8wwK' 
+//    `Y88P' `Y88P'   8   8888 8  Yb 
+
+
+.footer {
+	width: 100%;
+	height: 30vh;
+	@extend %mono-family;
+	max-height: 120px;
+	position: relative;
+	text-transform: uppercase;
+	@media only screen and (max-width: 765px) {
+		margin: 0 auto;
+		width: 88%;
+	}
+
+	@include e('project') {
+		display: none;
+		@extend %mono-family;
+		font-size: 0.7rem;
+		@media only screen and (max-width: 765px) {
+			display: block;
+			margin: 20px 0px 18px 0px auto;
+			margin: 0 auto;
+			height: 40px;
+			width: 88%;
+			text-transform: uppercase;
+			border-bottom: 1px dashed $type-blk;
+
+		}
+
+		@include m('previous') {
+			float: left;
+			height: 20px;
+			width: 50%;
+			text-align: left;
+		}
+		@include m('next') {
+			float: right;
+			height: 20px;
+			width: 50%;
+			text-align: right;
+
+		}
+	}
+	@include e('meta') {
+		height:65px;
+		width: 100%;
+		line-height: 4rem;
+		margin: 0 auto;
+		text-align: center;
+		border-top: 1px dashed $type-blk;
+	}
+
+	@include e('backToTop') {
+		width: 55px;
+		height: 55px;
+		border-radius: 49%;
+		-webkit-border-radius: 49%;
+		margin: 20px auto;
+		border: 1px solid $type-blk;
+		-webkit-border: 1px solid $type-blk;
+		transition: 0.3s ease;
+		cursor: pointer;
+		@media only screen and (min-width: 765px) {
+			
+		
+		   &:hover {
+    			background-color: $fill-blk;
+    			color: #fff;
+    			transition: 0.3s ease;
+    			a:link {
+					text-decoration: none;
+					color: #fff;
+				}
+    			a:visited {
+					text-decoration: none;
+					color: #fff;
+				}
+
+
+    		}
+
+    	}
+
+		@include m('arrow') {
+			-webkit-transform: scale(1.3, 1.7); 
+    		transform: scale(1.3, 1.7);
+    		text-align: center;
+    		position: relative;
+    		top: 20px;
+    		border-radius: 100%;
+
+		}
+
+	}
+	@include e('backText') {
+		text-align: center;
+		font-size: 0.6rem;
+		position: relative;
+		margin-bottom: 15px;
+	}
+
+}
+
+
+
+//88 8b  8 88888 888b. .d88b. 
+ //  8Ybm8   8   8  .8 8P  Y8 
+ //  8  "8   8   8wwK' 8b  d8 
+//88 8   8   8   8  Yb `Y88P' 
+
+
+.intro {
+	width: 60%;
+	height: auto;
+	float: left;
+	clear: both;
+	@include v-center;
+	left: 35%;
+
+	@include e('body') {
+		font-size: 3rem;
+		line-height: 3rem;
+		font-family: "MaisonNeue-Bold", sans-serif;
+		
+
+	}
+
+	@include e('readmore') {
+		width: 64px;
+		height: 16px;
+		white-space: nowrap;
+		font-size: 0.8rem;
+		@extend %body-family;
+		border-bottom: 0.5px solid red;
+		-webkit-border-bottom: 1px solid red;
+		cursor: pointer;
+	}
+}
+
+// .intro-container {
+// 	width: 240px;
+// 	height: 120px;
+// 	@include center;
+// 	left: 51.6%;
+
+// 	.intro-title {
+// 		@extend %title-copy;
+// 		padding-bottom: 7px;
+// 	}
+
+// 	.intro-body{
+// 		padding-bottom: 10px;
+// 		@extend %body-family;
+// 		font-size: 0.8rem;
+// 		line-height: 1.2rem;
+// 	}
+
+// 	.intro-redirect {
+		
+// 		a {
+// 			color:red;
+// 			text-transform: uppercase;
+
+// 			&:hover {
+// 				text-decoration: underline;
+// 			}
+// 		}
+// 	}	 
+// }
+
+
+
+
+//88b. 888b. .d88b.  8888 8888 .d88b 88888    
+//  .8 8  .8 8P  Y8    8  8www 8P      8       
+//wwP' 8wwK' 8b  d8 w  8  8    8b      8      
+//     8  Yb `Y88P' `Yw"  8888 `Y88P   8      
+
+
+.switch {
+	@extend %mono-family;
+	font-size: 0.7rem;
+	position: fixed;
+	width: 5%;
+	line-height: 2rem;
+	white-space: nowrap;
+	text-transform: uppercase;
+	text--webkit-transform: uppercase;
+
+	a:link {
+		color: $type-blk;
+	}
+	&:hover {
+		text-decoration: underline;
+	}
+}
+.next {
+	right: 0px;
+	top: 50%;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	transform-origin:center;
+	-webkit-transform-origin:center;
+	@media only screen and (max-width:765px) {
+		display: none;
+	}
+}
+
+.previous {
+	left: 0px;
+	top: 50%;
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	transform-origin:center;
+	-webkit-transform-origin:center;
+	@media only screen and (max-width:765px) {
+		display: none;
+	}
+}
+
+
+.item-link {
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.im2a-last {
+	margin-right: 0;
+}
+.project {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	@extend %body-family;
+	font-size: 0.81rem;
+	line-height: 20px;
+
+	@include e('break') {
+		width: 100%;
+		height: 1px;
+		clear: both;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		background-color: $fill-blk;
+	}
+	@include e('body-copy') {
+		width: 60%;
+		height: auto;
+		left: 30%;
+		border-left: 1px solid $rd;
+		padding-left: 22px;
+		// background-color: hsl(120,50,80);
+		position: relative;
+		margin: 35px 0px 0px 0px;
+		// columns:2;
+		// -webkit-columns:2;
+		// column-width:30px;
+		// -webkit-column-width:30px;
+	}
+}
+
+.project-return {
+	width: 100%;
+	float: left;
+	height: auto;
+	text-align: left;
+}
+
+.project-hero {
+	width: 100%;
+	height: 50vw;
+	clear: both;
+	min-height: 200px;
+	max-height: 700px;
+	background-color: $yellow;
+}
+
+.project-title {
+	@extend %title-family;
+	color: $fill-blk;
+	font-size: 3rem;
+	letter-spacing: -0.05rem;
+	text-transform: none;
+	-webkit-text-transform: none;
+	float: left;
+	width: auto;
+	margin: 38px 0px 38px 0px;
+	text-align: left;
+	@media only screen and (max-width: 565px) {
+		font-size: 2rem;
+		width: 100%;
+		margin-bottom: 8px;
+	}
+}
+
+.project-meta {
+	float: right;
+	width: auto;
+	margin: 50px 0px 30px 0px;
+	text-align: right;
+	@media only screen and (max-width: 565px) {
+		float: left;
+		text-align: left;
+		width: 100%;
+		margin-top: 8px;
+
+	}
+}
+
+
+.project-info {
+	width: 100%;
+	margin: 0 auto;
+	min-height: 355px;
+	height: auto;
+	padding-top: 20px;
+	text-align: center;
+	list-style: none;
+	@media only screen and (max-width: 765px) {
+		width: 90%;
+	}	
+	@media only screen and (max-width: 665px) {
+		width: 88%;
+	}
+	@media only screen and (max-width: 525px) {
+		width: 84%;
+	}
+	@media only screen and (max-width: 330px) {
+		width: 80%;
+	}
+
+	@include e('left') {
+		width: 25%;
+		height: 75px;
+		text-align: left;
+		float: left;
+		
+		@media only screen and (max-width: 765px){
+			padding-bottom: 20px;
+			width: 100%;
+			border-bottom: 1px solid $fill-blk;
+		}	
+	}
+	@include e('right') {
+		float: right;
+		width: 25%;
+		height: 50px;
+		text-align: right;
+		text-decoration: underline;
+		@media only screen and (max-width: 765px){
+			width: 30%;
+			float: left;
+			text-align: left;
+			margin-top: 20px;
+		}
+		@media only screen and (max-width: 370px){
+			width: 100%;
+			float: left;
+			text-align: left;
+			margin-top: 20px;
+		}			
+	}
+
+	@include e('list-right') {
+		margin: 5px 0px 5px 0px;
+		padding: 0;
+	}
+
+	@include e('list-left') {
+		margin: 5px 0px 5px 0px;
+		padding: 0;
+		// @include m ('first') {
+		// 	margin-top: 10px;
+		// }
+		.light-list {
+			opacity: 0.7;
+		}
+	}
+
+	@include e('center') {
+		width: 50%;
+		height: auto;
+		float: left;
+		margin-bottom: 50px;
+		margin-top: 10px;
+		text-align: left;
+		@media only screen and (max-width: 765px){
+			width: 60%;
+			margin-top: 20px;
+			float: right;
+		}
+		@media only screen and (max-width: 370px){
+			width: 100%;
+			margin-top: 20px;
+			float: left;
+		}
+	}	
+}
+
+
+
+// .d88b.    db    8b  8 888b. 888b. .d88b. Yb  dP 
+// YPwww.   dPYb   8Ybm8 8   8 8wwwP 8P  Y8  YbdP  
+//     d8  dPwwYb  8  "8 8   8 8   b 8b  d8  dPYb  
+// `Y88P' dP    Yb 8   8 888P' 888P' `Y88P' dP  Yb 
+  
+.triangle {
+
+	@include triangle (14px,$fill-blk);
+
+	@media only screen and (max-width: 765px) {
+		@include triangle (10px,$fill-blk);
+	}
+	width: 0;
+	height: 0;
+	display: inline-block;
+	transition:0.2s;
+	cursor: pointer;
+	-webkit-transform-origin: center;
+	transform-origin: center;
+
+	&:hover {
+		border-left-color: $orange;
+		transition: 0.3s;
+		cursor: pointer;
+		// -webkit-transform: rotate(90deg);
+		// transform: rotate(90deg);
+	}
+}
+
+.sandbox {
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	float: left;
+
+
+
+	@include e('title') {
+		@extend %mono-family;
+		width: 15vw;
+		text-align: right;
+		margin: 1vw;
+		float: right;
+		bottom: 0px;
+		@media only screen and (max-width: 425px) {
+			display: none;
+		}
+	}
+
+	@include e('box') {
+		width: auto;
+		height: 0;
+		float: left;
+		position: absolute;
+		z-index: 99;
+		background-color:red;
+		-webkit-transition: height 0.78s ease;
+        -moz-transition: height 0.78s ease;
+        transition: height 0.78s ease;
+		overflow: hidden;
+		// pointer-events: none;
+		@media only screen and (max-width: 765px) {
+			margin-left: $v-center-nav;
+		}
+	}
+
+	@include e('sandyList') {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		@extend %title-family;
+		font-size: 3rem;
+
+		@media only screen and (max-width: 765px) {
+			font-size:2rem;
+			line-height: 2.3rem;
+		}
+
+		line-height: 3.7rem;
+		position: relative;
+
+		@include m ('sandyItem') {
+			margin: 0;
+			padding: 0;
+			
+
+			&:hover {
+				color: $orange;
+				border-bottom: 2.5px solid $orange;
+			}
+		}
+	}
+	@include e('section') {
+		width: 100%;
+		height: 20vw;
+		position: relative;
+		margin-bottom: 20px;
+		z-index: 0;
+		float: right;
+		@media only screen and (max-width: 765px) {
+			margin-right: $v-center-nav;
+			width: 88%;
+		}
+
+
+
+	}
+	@include e('project') {
+		margin: 1vw;
+		background-color: $yellow;
+		float: right;
+		bottom: 0px;
+
+		@include m('rightHorizontal') {
+			width: 16vw;
+			height: 12vw;
+			min-width: 67px;
+			min-height: 47px;
+
+		}
+		@include m('rightVertical') {
+			width: 12vw;
+			height: 16vw;
+			min-height: 67px;
+			min-width: 47px;
+		}
+	}
+}
+
+
+// Yb        dP .d88b. 888b. 8  dP 
+//  Yb  db  dP  8P  Y8 8  .8 8wdP  
+//   YbdPYbdP   8b  d8 8wwK' 88Yb  
+//    YP  YP    `Y88P' 8  Yb 8  Yb 
+
+
+
+.work {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	@extend %mono-family;
+	font-size: 0.72rem;
+}
+
+.preview {
+	@include e('container') {
+		width: 100%;
+		height: 40vw;
+		min-height: 200px;
+		max-height: 600px;
+		margin: 25px 0px 25px 0px;
+	}
+
+	
+	@include e ('info') {
+		width: 100%;
+		height: 100%;
+		position: relative;
+
+
+
+		@include m('top') {
+			width: 94%;
+			margin: 3% 3% 0 3%;
+			height: 83%;
+			position: relative;
+			float: left;
+			font-size: 0.8rem;
+			text-transform: uppercase;
+			@media only screen and (max-width: 765px) {
+				width: 90%;
+				margin: 3% 5% 0 5%;
+				height: 78%;
+				font-size: 0.65rem;
+			}
+		}		
+		@include m('bottom') {
+			width: 94%;
+			margin: 0% 3% 3% 3%;
+			height: 3%;
+			position: relative;
+			float: left;
+			font-size: 0.8rem;
+			text-transform: uppercase;
+			@media only screen and (max-width: 765px) {
+				width: 90%;
+				margin: 0% 5% 3% 5%;
+				font-size: 0.65rem;
+			}
+		}	
+
+		@include m('topleft') {
+			float: left;
+			margin: 0;
+			padding: 0;
+		}		
+		@include m('topRight') {
+			float: right;
+			margin: 0;
+			padding: 0;
+		}		
+		@include m('bottomleft') {
+			float: left;
+			margin: 0;
+			padding: 0;
+		}		
+		@include m('bottomRight') {
+			float: right;
+			margin: 0;
+			padding: 0;
+
+		}
+	}
+}
+
+.prj1 {
+	color: #fff;
+	background-color: $orange;
+}
+.prj2 {
+	color: $type-blk;
+	background-color: $yellow;
+}
+.prj3 {
+	color: #fff;
+	background-color: $blu;
+}
+.prj4 {
+	color: #fff;
+	background-color: $orange;
+}
+.prj5 {
+	color: $type-blk;
+	background-color: $yellow;
+}
+.prj6 {
+	color: #fff;
+	background-color: $blu;
+}
+.prj7 {
+	color: #fff;
+	background-color: $orange;
+}
+.prj8 {
+	color: $type-blk;
+	background-color: $yellow;
+}
+.prj9 {
+	color: #fff;
+	background-color: $orange;
+}
+
+
+
+//    db    888b. .d88b. 8    8 88888 
+//   dPYb   8wwwP 8P  Y8 8    8   8   
+//  dPwwYb  8   b 8b  d8 8b..d8   8   
+// dP    Yb 888P' `Y88P' `Y88P'   8   
+
+
+
+.about {
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	@media only screen and (max-width: 1110px) {
+		width: 100%;
+	}
+	// background-color: hsl(0,0,20);
+
+	@include e('image') {
+		width: 37%;
+		height: 500px;
+		float: left;
+		// -webkit-filter: invert(100%);
+		// filter: invert(100%);
+		@include bgImage ('../images/placeholder.jpg',none,center,cover);
+		// background-color: hsl(120,50,80);
+		@media only screen and (max-width: 765px) {
+			width: 100%;
+			height: 400px;
+		}
+	}
+	@include e('info') { 
+		width: 63%;
+		float: left;
+		height: 500px;
+		@media only screen and (max-width: 765px) {
+			width: 80%;
+			height: 100px;
+			margin-left: $v-center-nav;
+		}
+	}
+	@include e('title') {
+		@extend %title-family;
+		font-size: 3rem;
+		margin: 40px 20px 30px 20px;
+
+	}
+	@include e('body') {
+		@extend %body-family;
+		margin: 20px;
+		width: 90%;
+		@media only screen and (max-width:765px) {
+			width: 90%;
+		}
+
+	}
+	@include e('connect') {
+		width: 200px;
+		height: 50px;
+		margin: 20px;
+	}
+	@include e('icon') {
+		margin-right: 15px;
+	}
+	@include e('get-in-touch') {
+		width: 100%;
+		@extend %mono-family;
+		font-size: 0.6rem;
+		line-height: 1rem;
+	}
+}
+
+
+
+// 		  88888 .d88b. .d88b. 8    88888 888 888b. 
+//   		8   8P  Y8 8P  Y8 8      8    8  8  .8 
+//   		8   8b  d8 8b  d8 8      8    8  8wwP' 
+//   		8   `Y88P' `Y88P' 8888   8   888 8     
+                                         
+
+
+
+.tooltip {
+    text-decoration:none;
+    position:relative;
+}
+.tooltip span {
+    display:none;
+    background-color: white;
+    box-shadow: 0px 0px 10px hsl(0,0,95);
+}
+.tooltip:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+}
+
+
+
+
