@@ -138,6 +138,7 @@ body {
 .footer {
   width: 100%;
   height: 30vh;
+  margin-top: 30px;
   max-height: 120px;
   position: relative;
   text-transform: uppercase; }
@@ -151,7 +152,7 @@ body {
     @media only screen and (max-width: 765px) {
       .footer__project {
         display: block;
-        margin: 20px 0px 18px 0px auto;
+        padding-top: 30px;
         margin: 0 auto;
         height: 40px;
         width: 88%;
