@@ -47,6 +47,17 @@
 			<div class="project-hero"></div>
 
 			<div class="project__body-copy">Climate Change is happening, and people need to believe it. Visualizing it in the simplest form is an excellent method of delivering the message. Using three.js (a library extension of WebGL) and basic JavaScript elements, we we’re tasked with visualizing some climate change, into an informational and educational way. I focused on the leading causes of climate change, and the potential threats they pose, as well as the possible ways to counter it.</div>
+			
+			<div class="project-hero"></div>
+
+			<div class="project__body-copy">Climate Change is happening, and people need to believe it. Visualizing it in the simplest form is an excellent method of delivering the message. Using three.js (a library extension of WebGL) and basic JavaScript elements, we we’re tasked with visualizing some climate change, into an informational and educational way. I focused on the leading causes of climate change, and the potential threats they pose, as well as the possible ways to counter it.</div>
+
+			<div class="project-hero"></div>
+
+			<div class="project__body-copy">Climate Change is happening, and people need to believe it. Visualizing it in the simplest form is an excellent method of delivering the message. Using three.js (a library extension of WebGL) and basic JavaScript elements, we we’re tasked with visualizing some climate change, into an informational and educational way. I focused on the leading causes of climate change, and the potential threats they pose, as well as the possible ways to counter it.</div>
+
+			<div class="project-hero"></div>
+			<div class="project-hero"></div>
 		</div>
 
 

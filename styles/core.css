@@ -2,11 +2,11 @@
   font-family: "MaisonNeue-Medium", sans-serif;
   color: #404040; }
 
-body, .page__header--description, .page__header--return, .footer, .footer__project, .switch, .sandbox__title, .work, .about__get-in-touch {
+body, .page__header--description, .page__header--return, .footer, .footer__project, .switch, .work, .about__get-in-touch {
   font-family: "MaisonNeue-Mono", sans-serif;
   color: #404040; }
 
-.page-title-cus, .page__header--title, .project-title, .sandbox__sandyList, .about__title {
+.page-title-cus, .page__header--title, .project-title, .about__title {
   font-family: "MaisonNeue-Bold", sans-serif;
   color: #404040; }
 
@@ -294,7 +294,7 @@ body {
     border-left: 1px solid red;
     padding-left: 22px;
     position: relative;
-    margin: 35px 0px 0px 0px; }
+    margin: 35px 0px 30px 0px; }
 
 .project-return {
   width: 100%;
@@ -412,100 +412,17 @@ body {
         margin-top: 20px;
         float: left; } }
 
-.triangle {
-  border-top: 14px solid transparent;
-  border-bottom: 14px solid transparent;
-  border-left: 14px solid transparent;
-  border-left: 14px solid #1a1a1a;
-  width: 0;
-  height: 0;
-  display: inline-block;
-  transition: 0.2s;
-  cursor: pointer;
-  -webkit-transform-origin: center;
-  transform-origin: center; }
-  @media only screen and (max-width: 765px) {
-    .triangle {
-      border-top: 10px solid transparent;
-      border-bottom: 10px solid transparent;
-      border-left: 10px solid transparent;
-      border-left: 10px solid #1a1a1a; } }
-  .triangle:hover {
-    border-left-color: #f8531b;
-    transition: 0.3s;
-    cursor: pointer; }
-
 .sandbox {
   width: 100%;
-  height: 100vh;
-  overflow: auto;
-  float: left; }
-  .sandbox__title {
-    width: 15vw;
-    text-align: right;
-    margin: 1vw;
-    float: right;
-    bottom: 0px; }
-    @media only screen and (max-width: 425px) {
-      .sandbox__title {
-        display: none; } }
-  .sandbox__box {
+  height: 100%;
+  margin: 0 auto;
+  text-align: center; }
+  .sandbox__exploration {
     width: auto;
-    height: 0;
-    float: left;
-    position: absolute;
-    z-index: 99;
-    background-color: red;
-    -webkit-transition: height 0.78s ease;
-    -moz-transition: height 0.78s ease;
-    transition: height 0.78s ease;
-    overflow: hidden; }
-    @media only screen and (max-width: 765px) {
-      .sandbox__box {
-        margin-left: 33px; } }
-  .sandbox__sandyList {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-size: 3rem;
-    line-height: 3.7rem;
-    position: relative; }
-    @media only screen and (max-width: 765px) {
-      .sandbox__sandyList {
-        font-size: 2rem;
-        line-height: 2.3rem; } }
-    .sandbox__sandyList--sandyItem {
-      margin: 0;
-      padding: 0; }
-      .sandbox__sandyList--sandyItem:hover {
-        color: #f8531b;
-        border-bottom: 2.5px solid #f8531b; }
-  .sandbox__section {
-    width: 100%;
-    height: 20vw;
-    position: relative;
-    margin-bottom: 20px;
-    z-index: 0;
-    float: right; }
-    @media only screen and (max-width: 765px) {
-      .sandbox__section {
-        margin-right: 33px;
+    margin: 15px; }
+    @media only screen and (max-width: 600px) {
+      .sandbox__exploration {
         width: 88%; } }
-  .sandbox__project {
-    margin: 1vw;
-    background-color: #fcc603;
-    float: right;
-    bottom: 0px; }
-    .sandbox__project--rightHorizontal {
-      width: 16vw;
-      height: 12vw;
-      min-width: 67px;
-      min-height: 47px; }
-    .sandbox__project--rightVertical {
-      width: 12vw;
-      height: 16vw;
-      min-height: 67px;
-      min-width: 47px; }
 
 .work {
   width: 100%;

@@ -19,7 +19,7 @@
             <span id="tooltip-span">This isnt me. Its my camera.</span>
         </a>
         <div class="about__info">
-            <div class="about__title">Headline</div>
+            <div class="about__title">whut</div>
             <div class="about__body">I am currently studying at Sheridan College for a Bachelor in Interaction Design. Over time I have acquired a expansive taste for Design. Having been raised by a Graphic Designer (my father) I was taught right from birth, whether it be a lesson in typography or photography. My interests have spread over both. Although my perception on design does not stop there—Design is limitless. I see it as a tool to problem solve, communicate, connect and but most importantly, constitute change.</div>
 
             <div class="about__body">For me, Design is a world of endless possibilities, where ones imagination is the limit. I enjoy exploring new areas of design and interactive media, and what it has to offer. I am eager to see where it takes me and the opportunities it brings!</div>
