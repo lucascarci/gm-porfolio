@@ -6,6 +6,7 @@
 		<meta name="keywords" content="luca, scarci, interaction design, design, sheridan college, student, designer, luca scarci,">
 		<title>title</title>
 		<link rel="stylesheet" href="styles/core.css">
+		<link rel="stylesheet" href="styles/project_beta.css">
 		<link rel="stylesheet" href="fonts/fonts.css">
 	 </head>
 	<body>
@@ -26,8 +27,8 @@
 					<a class="page__header--return" href="../work.php">< RETURN TO WORK</a>
 				</div>
 
-				<div class="project-title">Pantone Analysis</div>
-				<div class="project-meta">2017 | Interactive</div>
+				<div class="project-title">The Rising Tide</div>
+				<div class="project-meta">2016 | Interactive</div>
 
 				<div class="project__break"></div>
 
@@ -44,15 +45,15 @@
 					<li class="project-info__list-right">> Pantone Gitub</li>
 				</div>
 			</div>
-			<div class="project-hero"></div>
+			<div class="project-hero rising__1"></div>
 
 			<div class="project__body-copy">Climate Change is happening, and people need to believe it. Visualizing it in the simplest form is an excellent method of delivering the message. Using three.js (a library extension of WebGL) and basic JavaScript elements, we we’re tasked with visualizing some climate change, into an informational and educational way. I focused on the leading causes of climate change, and the potential threats they pose, as well as the possible ways to counter it.</div>
 			
-			<div class="project-hero"></div>
+			<div class="project-hero rising__2"></div>
 
 			<div class="project__body-copy">Climate Change is happening, and people need to believe it. Visualizing it in the simplest form is an excellent method of delivering the message. Using three.js (a library extension of WebGL) and basic JavaScript elements, we we’re tasked with visualizing some climate change, into an informational and educational way. I focused on the leading causes of climate change, and the potential threats they pose, as well as the possible ways to counter it.</div>
 
-			<div class="project-hero"></div>
+			<div class="project-hero rising__3"></div>
 
 			<div class="project__body-copy">Climate Change is happening, and people need to believe it. Visualizing it in the simplest form is an excellent method of delivering the message. Using three.js (a library extension of WebGL) and basic JavaScript elements, we we’re tasked with visualizing some climate change, into an informational and educational way. I focused on the leading causes of climate change, and the potential threats they pose, as well as the possible ways to counter it.</div>
 

@@ -14,10 +14,10 @@
     <?php require 'nav.php';?>
     
       
-      <div class="intro">
+      <!-- <div class="intro">
         <div class="intro__body">Hi. Im Luca Scarci, a student in Toronto studying Interaction Design.</div>
         <p class="intro__readmore">Read More</p>
-      </div>
+      </div> -->
 
   </body>
 </html> 
