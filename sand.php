@@ -13,9 +13,10 @@
 
     <?php require 'nav.php';?>
 
-    <div id="sand" class="sandbox">
+     <div id="sand" class="sandbox">
         
-    </div>
+      </div>
+  </div>
     
 
 

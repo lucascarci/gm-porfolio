@@ -2,16 +2,16 @@
 @import '_var.scss';
 
 
-.rising {
+// .rising {
 
-	@include e('1') {
-		@include bgImage('../images/risingtide/01.jpg',no-repeat,center,cover);
-	}
-	@include e('2') {
-		@include bgImage('../images/risingtide/02.jpg',no-repeat,center,cover);
-	}
-	@include e('3') {
-		@include bgImage('../images/risingtide/03.jpg',no-repeat,center,cover);
-	}
-}
+// 	@include e('1') {
+// 		@include bgImage('../images/risingtide/0.jpg',no-repeat,center,cover);
+// 	}
+// 	@include e('2') {
+// 		@include bgImage('../images/risingtide/02.jpg',no-repeat,center,cover);
+// 	}
+// 	@include e('3') {
+// 		@include bgImage('../images/risingtide/03.jpg',no-repeat,center,cover);
+// 	}
+// }
 

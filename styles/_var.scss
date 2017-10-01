@@ -6,6 +6,7 @@ $yellow: hsl(47,98,50);
 $blu: hsl(220,89,45);
 $rd: hsl(360,100%,50%);
 $v-center-nav: 33px;
+$hov-c: black;
 
 
 
@@ -21,6 +22,13 @@ $v-center-nav: 33px;
 	}
 }
 
+@mixin border-under {
+	border-bottom: 1px hsl(0,0,80);
+	border-bottom-style: dotted;
+	&:hover {
+		border-bottom-color: $hov-c;
+	}
+}
 @mixin bgImage ($link,$repeat,$pos, $size) {
 	background-image: url($link);
 	background-repeat: $repeat;

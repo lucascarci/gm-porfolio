@@ -1,4 +1,4 @@
-.main-container, .nav-container, .intro__readmore, .project, .about__body {
+.main-container, .intro__readmore, .project, .about__body {
   font-family: "MaisonNeue-Medium", sans-serif;
   color: #404040; }
 
@@ -8,6 +8,10 @@ body, .page__header--description, .page__header--return, .footer, .footer__proje
 
 .page-title-cus, .page__header--title, .project-title, .about__title {
   font-family: "MaisonNeue-Bold", sans-serif;
+  color: #404040; }
+
+.nav-container {
+  font-family: "MaisonNeue-Demi", sans-serif;
   color: #404040; }
 
 body {
@@ -44,8 +48,7 @@ body {
 .main-container {
   width: 90%;
   height: 100%;
-  max-width: 1100px;
-  margin: 0 auto;
+  margin: 0% 5% 0% 5%;
   font-size: 0.81rem; }
 
 .page__header {
@@ -81,9 +84,6 @@ body {
     text-decoration: underline;
     font-size: 0.7rem; }
 
-@media only screen and (min-width: 1200px) {
-  .main-container {
-    max-width: 1450px; } }
 @media only screen and (max-width: 765px) {
   .main-container {
     width: 100%;
@@ -103,6 +103,7 @@ body {
   .nav-container .nav-wordmark {
     margin-left: 33px; } }
 .nav-container {
+  font-size: 0.9rem;
   width: 100%;
   height: 80px;
   line-height: 5rem; }
@@ -123,13 +124,11 @@ body {
         .nav-container ul li {
           margin-left: 5px; } }
   .nav-container .nav-menus {
-    float: right;
-    font-size: 0.81rem; }
+    float: right; }
   .nav-container .nav-menus-action {
     padding-top: 3px; }
   .nav-container .nav-wordmark {
-    float: left;
-    font-size: 0.81rem; }
+    float: left; }
 
 @media only screen and (max-width: 355px) {
   .mobile-hidden {
@@ -289,12 +288,14 @@ body {
     background-color: #1a1a1a; }
   .project__body-copy {
     width: 60%;
+    max-width: 900px;
     height: auto;
-    left: 30%;
-    border-left: 1px solid red;
-    padding-left: 22px;
+    border-left: 3px solid red;
+    left: 40px;
+    padding: 40px 40px 40px 40px;
+    background-color: #f7f7f7;
     position: relative;
-    margin: 35px 0px 30px 0px; }
+    margin: 16% 0% 16% 0%; }
 
 .project-return {
   width: 100%;
@@ -308,7 +309,6 @@ body {
   clear: both;
   margin: 20px 0px 20px 0px;
   min-height: 200px;
-  max-height: 700px;
   background-color: #fcc603; }
 
 .project-title {
@@ -400,7 +400,6 @@ body {
     float: left;
     margin-bottom: 50px;
     margin-top: 10px;
-    margin-left: 3%;
     text-align: left; }
     @media only screen and (max-width: 765px) {
       .project-info__center {
@@ -487,7 +486,6 @@ body {
 
 .prj1 {
   color: #fff;
-  background-image: url(../images/risingtide/01.jpg);
   background-color: #f8531b; }
 
 .prj2 {
@@ -532,11 +530,7 @@ body {
   .about__image {
     width: 37%;
     height: 500px;
-    float: left;
-    background-image: url("../images/placeholder.jpg");
-    background-repeat: none;
-    background-position: center;
-    background-size: cover; }
+    float: left; }
     @media only screen and (max-width: 765px) {
       .about__image {
         width: 100%;

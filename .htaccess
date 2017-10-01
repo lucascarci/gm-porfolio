@@ -1,1 +1,1 @@
-ErrorDocument 404 www.google.ca
+ErrorDocument 404 /404page.html

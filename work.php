@@ -13,7 +13,6 @@
 
           <?php require 'nav.php';?>
 
-
     <div class="page__header page__header--mobile">
 
         <div class="page__header page__header--title">Work</div>
@@ -33,7 +32,6 @@
             <p class="preview__info--bottomleft">FRONT END DEV + INTERACTIVE</p>
             <p class="preview__info--bottomRight">13 WEEKS</p>
           </div>
-
         </div>
       </a>
 
