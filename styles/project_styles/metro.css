@@ -1,0 +1,44 @@
+.page-title-cus {
+  font-family: "MaisonNeue-Bold", sans-serif;
+  color: #27262c; }
+
+.subtitle-copy {
+  font-family: "MaisonNeue-Mono", sans-serif;
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.05rem;
+  color: #27262c; }
+
+.page-title-cus {
+  font-size: 14rem;
+  line-height: 4rem;
+  letter-spacing: 0.05rem; }
+
+.metro__1 {
+  background-image: url("../../images/metro/cover.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #fcc603; }
+.metro__2 {
+  background-image: url("../../images/metro/01.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+.metro__3 {
+  background-image: url("../../images/metro/02.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+.metro__4 {
+  background-image: url("../../images/metro/03.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+.metro__5 {
+  background-image: url("../../images/metro/04.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+/*# sourceMappingURL=metro.css.map */

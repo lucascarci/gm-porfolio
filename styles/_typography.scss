@@ -7,8 +7,13 @@
 	color:$type-blk;
 }
 
+// %body-family {
+// 	font-family:"bs-r", sans-serif;
+// 	color:$type-blk;
+// }
+
 %mono-family {
-	font-family:"MaisonNeue-Mono", sans-serif;
+	font-family:"MaisonNeue-Mono", monospace;
 	color:$type-blk;
 }
 
@@ -17,15 +22,30 @@
 	color:$type-blk;
 }
 
+// %title-family {
+// 	font-family:"bs-b", sans-serif;
+// 	color:$type-blk;
+// }
+
 %demi-family {
 	font-family:"MaisonNeue-Demi", sans-serif;
 	color:$type-blk;
 }
 
+// %demi-family {
+// 	font-family:"bs-sb", sans-serif;
+// 	color:$type-blk;
+// }
+
 %med-family {
 	font-family:"MaisonNeue-Medium", sans-serif;
 	color:$type-blk;
 }
+
+// %med-family {
+// 	font-family:"bs-m", sans-serif;
+// 	color:$type-blk;
+// }
 
 
 

@@ -20,11 +20,9 @@
 
 .blog-container {
   margin: 0 auto;
-  width: 90%;
+  width: 80%;
   max-width: 1100px;
-  min-width: 800px;
-  height: 100%;
-  text-align: left; }
+  height: 100%; }
 
 .posts-container {
   width: 80%;
@@ -34,8 +32,7 @@
 .blog-intro__intro-container {
   width: 70%;
   height: 200px;
-  margin: 0 auto;
-  background-color: #d1dbf0; }
+  margin: 0 auto; }
 .blog-intro__blog-title {
   font-size: 3rem;
   text-align: left; }
@@ -43,7 +40,6 @@
 .single-post {
   font-size: 0.8rem; }
   .single-post__container {
-    background-color: #d1f0d1;
     width: 100%;
     height: auto;
     min-height: 250px; }
@@ -54,18 +50,24 @@
       opacity: 0.3;
       font-size: 2rem; }
   .single-post__info {
-    width: 15%;
+    width: 100%;
     min-width: 150px;
-    background-color: #f0d1e6;
-    height: 250px;
+    height: 120px;
     float: left; }
   .single-post__meta-line {
     color: gray; }
   .single-post__excerpt {
-    width: 96%;
-    height: auto; }
+    width: 100%;
+    height: auto;
+    float: left; }
+  .single-post__read-post {
+    width: 100%;
+    height: auto;
+    float: right;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: right;
+    padding-bottom: 10px; }
   .single-post__content {
-    background-color: red;
     width: 80%;
     height: auto;
     float: right; }
@@ -73,28 +75,28 @@
 .right-column__container {
   font-size: 0.75rem;
   float: left;
-  width: 20%;
-  max-width: 170px;
+  width: 15%;
+  margin-left: 5%;
   height: 100%;
   list-style: none; }
 .right-column__title {
   font-size: 0.95rem;
-  border-bottom: 1px solid black;
   margin-top: 15px; }
   .right-column__title--top {
     margin-top: 0; }
 .right-column__post {
-  padding-top: 3px; }
+  padding-top: 8px;
+  line-height: 1.1rem; }
   .right-column__post a {
-    border-bottom: 1px #cccccc;
-    border-bottom-style: dotted; }
+    border-bottom: 1px #dedede;
+    border-bottom-style: solid; }
     .right-column__post a:hover {
       border-bottom-color: black; }
 .right-column__category {
   padding-top: 3px; }
   .right-column__category a {
-    border-bottom: 1px #cccccc;
-    border-bottom-style: dotted; }
+    border-bottom: 1px #dedede;
+    border-bottom-style: solid; }
     .right-column__category a:hover {
       border-bottom-color: black; }
 

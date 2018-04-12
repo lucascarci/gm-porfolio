@@ -5,5 +5,5 @@
 		</a>	
 	</div>
 	<p class="footer__backText">BACK TO TOP</p>
-	<div class="footer__meta">Crafted By Luca Scarci 2017</div>
+	<div class="footer__meta">Crafted By Luca Scarci 2018</div>
 </div>

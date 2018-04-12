@@ -11,13 +11,26 @@
   <body>
     <div class="main-container">
 
-    <?php require 'nav.php';?>
+
+    <?php 
+        $path = $_SERVER['DOCUMENT_ROOT'];
+        $path .= "/nav.php";
+        require($path);
+    ?>
+
     
       
-      <!-- <div class="intro">
-        <div class="intro__body">Hi. Im Luca Scarci, a student in Toronto studying Interaction Design.</div>
-        <p class="intro__readmore">Read More</p>
-      </div> -->
+      <div class="intro">
+        <div class="intro__body">I'm Luca, a student at Sheridan College studying Interaction Design.</div>
+        <div class="breaker"></div>
+        <div class="worklist">
+          <a class="intro__readmore" href="contact.php">Read More</a>
+          <div class="breakerSpacer">/</div>
+          <a class="intro__readmore" href="contact.php">Portfolio</a>
+        </div>
+        
+      </div>
+    </div>
 
   </body>
 </html> 

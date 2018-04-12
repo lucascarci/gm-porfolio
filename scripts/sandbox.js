@@ -1,6 +1,6 @@
 var sandboxElement;
 var ss; //ss = sandbox style
-var images = 8;
+var images = 20;
 var tool;
 var content;
 
@@ -31,7 +31,7 @@ for (i = 0; i < images; i++) {
 	document.getElementById("tooltip-span"+i).appendChild(content);
 
 	console.log(tool,content);
-	document.getElementById("sandy" + i).src = "images/gifs/0" + i + ".gif";
+	document.getElementById("sandy" + i).src = "images/gifs/0" + i + ".jpg";
 
 }
 

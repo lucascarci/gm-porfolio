@@ -1,0 +1,43 @@
+.page-title-cus {
+  font-family: "MaisonNeue-Bold", sans-serif;
+  color: #27262c; }
+
+.subtitle-copy {
+  font-family: "MaisonNeue-Mono", sans-serif;
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.05rem;
+  color: #27262c; }
+
+.page-title-cus {
+  font-size: 14rem;
+  line-height: 4rem;
+  letter-spacing: 0.05rem; }
+
+.rising__1 {
+  background-image: url("../../images/risingtide/04.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+.rising__2 {
+  background-image: url("../../images/risingtide/02.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+.rising__3 {
+  background-image: url("../../images/risingtide/03.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+.rising__4 {
+  background-image: url("../../images/risingtide/01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+.rising__5 {
+  background-image: url("../../images/risingtide/05.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+/*# sourceMappingURL=consume.css.map */

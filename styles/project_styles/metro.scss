@@ -1,0 +1,24 @@
+@import '../_typography.scss';
+@import '../_var.scss';
+
+
+.metro {
+
+	@include e('1') {
+		@include bgImage('../../images/metro/cover.png',no-repeat,center,contain);
+		background-color: $yellow;
+	}
+	@include e('2') {
+		@include bgImage('../../images/metro/01.png',no-repeat,center,contain);
+	}
+	@include e('3') {
+		@include bgImage('../../images/metro/02.png',no-repeat,center,contain);
+	}
+	@include e('4') {
+		@include bgImage('../../images/metro/03.png',no-repeat,center,contain);
+	}	
+	@include e('5') {
+		@include bgImage('../../images/metro/04.png',no-repeat,center,contain);
+	}
+}
+

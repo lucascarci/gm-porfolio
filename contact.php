@@ -11,7 +11,11 @@
   <body>
     <div class="main-container">
 
-    <?php require 'nav.php';?>
+    <?php 
+       $path = $_SERVER['DOCUMENT_ROOT'];
+       $path .= "/nav.php";
+       include_once($path);
+    ?>
 
     <div class="about">
         <a class="tooltip">
@@ -25,11 +29,11 @@
             <div class="about__body">For me, Design is a world of endless possibilities, where ones imagination is the limit. I enjoy exploring new areas of design and interactive media, and what it has to offer. I am eager to see where it takes me and the opportunities it brings!</div>
             <div class="about__connect">
                 <p class="about__get-in-touch">REACH OUT TO ME, HOWEVER YOU LIKE. FOLLOW ME ON INSTA, TWEET AT ME, OR EVEN EMAIL ME A GIF OF A DANCING CAT — <i>WHATEVER!</i> WOULD LOVE TO HEAR FORM YOU :)</p>
-                <a href="#"><img height="16px;" src ="images/mailicon.png" class="about__icon"></a>
-                <a href="#"><img height="18px;" src ="images/linkin.png" class="about__icon"></a>
-                <a href="#"><img height="18px;" src ="images/instagramicon.png" class="about__icon"></a>
-                <a href="#"><img height="20px;" src ="images/facebookicon.png" class="about__icon"></a>
-                <a href="#"><img height="17px;" src ="images/twittericon.png" class="about__icon"></a>
+                <a href="#"><img height="16px;" src ="/images/mailicon.png" class="about__icon"></a>
+                <a href="#"><img height="18px;" src ="/images/linkin.png" class="about__icon"></a>
+                <a href="https://www.instagram.com/luca_scarci/"><img height="18px;" src ="/images/instagramicon.png" class="about__icon"></a>
+                <!-- <a href="https://github.com/lucascarci">Github<img height="20px;" src ="/images/facebookicon.png" class="about__icon"></a> -->
+                <a href="#"><img height="17px;" src ="/images/twittericon.png" class="about__icon"></a>
 
   </body>
   <script type="text/javascript" src="scripts/tooltip.js"></script>

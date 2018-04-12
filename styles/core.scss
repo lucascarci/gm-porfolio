@@ -2,6 +2,9 @@
 @import '_var.scss';
 
 
+
+
+
 // 
 body {
 	margin: 0 auto;
@@ -38,7 +41,7 @@ body {
 	// max-width: 1100px;
 	// margin: 0 auto;
 	margin: 0% 5% 0% 5%;
-	font-size: 0.81rem;
+	font-size: 0.9rem;
 	@extend %body-family;
 
   }  
@@ -47,6 +50,7 @@ body {
 
 .page__header {
 	width: 88%;
+	transition-duration: 0.3s;
 	line-height: 3rem;
 	color: $fill-blk;
 	// margin-bottom: 20px;
@@ -160,9 +164,12 @@ body {
 	
 	a {
 		text-decoration: none;
+		transition: 0.1s;
+
 
 		&:hover {
-			border-top: 2px solid black;
+			transition: 0.1s;
+			border-top: 1px solid $rd;
 		}
 	}	
 
@@ -176,8 +183,8 @@ body {
 			list-style: none;
 			padding: 0px;
 			margin-left: 15px;
-			@media only screen and (max-width: 375px) {
-				margin-left: 5px;
+			@media only screen and (max-width: 400px) {
+				margin-left: 3px;
 			}
 		}
 	}
@@ -189,18 +196,22 @@ body {
 	
 	.nav-menus-action {
 		padding-top: 3px;
+
 	}
 
 
 	.nav-wordmark {
 		float: left;
-		 
+		 a {
+		 	padding-top: 3px;
+		 }
 	}
 }
 
 .mobile-hidden {
-	@media only screen and (max-width: 355px) {
+	@media only screen and (max-width: 400px) {
 		display: none;
+
 	}
 }
 
@@ -255,6 +266,7 @@ body {
 		}
 	}
 	@include e('meta') {
+		font-size: 0.65rem;
 		height:65px;
 		width: 100%;
 		line-height: 4rem;
@@ -321,32 +333,87 @@ body {
  //  8  "8   8   8wwK' 8b  d8 
 //88 8   8   8   8  Yb `Y88P' 
 
+.breaker {
+	background-color: $rd;
+	height: 7px;
+	width:50px;
+	margin: 15px 0px 23px 0px;
+
+}
+
+.worklist {
+	display: inline;
+	width: 100%;
+	height: 40px;
+}
+
+.breakerSpacer {
+	display: inline;
+	font-size: 0.9rem;
+	width: 5px;
+	height: auto;
+	position: relative;
+	color: $rd;
+}
 
 .intro {
-	width: 60%;
+	width: 100%;
+	max-width: 1000px;
+	height: 100%;
 	height: auto;
-	float: left;
-	clear: both;
-	@include v-center;
-	left: 35%;
+	margin-top: 30vh;
+	transition-duration:0.3s;
+	position: relative;
+		@media only screen and (max-width:765px) {
+			width: 80%;
+			left: $v-center-nav;
+		}
+		@media only screen and (max-width:585px) {
+			margin-top: 25vh; 
+		}		
+
+		@media only screen and (max-width:422px) {
+			margin-top: 18vh; 
+		}
+
+		@media only screen and (max-height:420px) {
+			margin-top: 15vh;
+		}
 
 	@include e('body') {
-		font-size: 3rem;
-		line-height: 3rem;
-		font-family: "MaisonNeue-Bold", sans-serif;
-		
+		transition-duration:0.3s;
+
+		line-height: 3.35rem;
+		// width: 60
+		font-size: 3.375rem;
+		letter-spacing: -0.05rem;
+
+		@media only screen and (max-width:765px) {
+			font-size: 2.5rem;
+			line-height: 2.675rem;
+		}
+
+
 
 	}
 
 	@include e('readmore') {
-		width: 64px;
-		height: 16px;
-		white-space: nowrap;
-		font-size: 0.8rem;
 		@extend %body-family;
-		border-bottom: 0.5px solid red;
-		-webkit-border-bottom: 1px solid red;
-		cursor: pointer;
+		text-align: center;
+		width: 100px;
+		font-size: 0.9rem;
+		transition: 0.1s;
+		padding: 60px 0px 0px 0px;
+
+
+
+		&:hover {
+			transition: 0.1s;
+			border-bottom: 1px solid $rd;
+			cursor: pointer;
+
+		}
+
 	}
 }
 
@@ -415,8 +482,9 @@ body {
 	height: 100%;
 	margin: 0 auto;
 	@extend %body-family;
-	font-size: 0.81rem;
-	line-height: 20px;
+	font-size: 0.875rem;
+	// font-size: 15px;
+	line-height: 22px;
 
 	@include e('break') {
 		width: 100%;
@@ -435,7 +503,7 @@ body {
 		padding: 40px 40px 40px 40px;
 		background-color: hsl(0,0,97);
 		@media only screen and (min-width: 765px) {
-			left: 80px;
+			left: 60px;
 		}
 		@media only screen and (max-width: 765px) {
 			
@@ -444,13 +512,109 @@ body {
 		margin: 16% 0% 16% 0%;
 		
 	}
+	@include e('copy') {
+		width: 100%;
+		height: auto;
+		margin: auto;
+
+		@media only screen and (max-width: 765px) {
+			width: 90%;
+		}	
+		@media only screen and (max-width: 665px) {
+			width: 88%;
+		}
+		@media only screen and (max-width: 525px) {
+			width: 84%;
+		}
+		@media only screen and (max-width: 330px) {
+			width: 80%;
+		}
+	}
 }
+
+
+.video-link {
+		@media only screen and (max-width: 765px) {
+			padding-bottom: 45px;
+			background-color: #fff !important;
+		}
+		@media only screen and (max-width: 455px) {
+			padding-bottom: 28px;
+		}
+	}
+
+.r-button {
+	float: left !important;
+	list-style: none;
+	position: relative;
+		@media only screen and (max-width: 765px) {
+			float: right !important;
+			top: -10px;
+		}
+}
+
+.bdy {
+	padding-top: 10px; 
+	border-top: 1px solid $m-grey;
+
+	@include e('h') {
+		width: 20%;
+		height: 100%;
+		float: left;
+		padding-top: 15px;
+		line-height: 1.9rem;
+		margin: 0% 2% 6% 0%;
+		// text-transform: uppercase;
+		@extend %title-family;
+		font-size: 2rem;
+		@media only screen and (max-width: 765px) {
+			border-top:none;
+			width: 48%;
+			margin: 0% 4% 0% 0%;
+			padding-bottom: 8px;
+			padding-top: 8px;
+		}
+	}	
+	@include e('s') {
+		float: left;
+		width: 20%;
+		height: 100%;
+		margin: 0% 2% 6% 0%;
+		text-transform: uppercase;
+		@extend %mono-family;
+		font-size: 0.75rem;
+		letter-spacing: -0.008rem;
+		@media only screen and (max-width: 765px) {
+			width: 48%;
+			margin:0%;
+			padding-bottom: 6px;
+			border-top:none;
+
+
+		}
+	}
+	@include e('c') {
+		width: 56%;
+		height: 100%;
+		float: left;
+		margin: 0% 0% 6% 0%;
+		font-size: 16px;
+		line-height: 26px;
+		@media only screen and (max-width: 765px) {
+			width: 100%;
+
+		}
+	}	
+
+}
+
 
 .project-return {
 	width: 100%;
 	float: left;
 	height: auto;
 	text-align: left;
+	text-decoration: underline;
 }
 
 .project-hero {
@@ -460,8 +624,25 @@ body {
 	margin: 20px 0px 20px 0px;
 	min-height: 200px;
 	// max-height: 700px;
-	background-color: $yellow;
+	background-color: $li-grey;
+
+	@include e('half') {
+		width: 50%;
+		float: left;
+		height: 100%;
+		position: relative;
+	}
 }
+.project-hero-break {
+	width: 100%;
+	height: 10vw;
+	clear: both;
+	margin: 20px 0px 20px 0px;
+	max-height: 100px;
+	min-height: 50px;
+}
+
+
 
 .project-title {
 	@extend %title-family;
@@ -474,7 +655,9 @@ body {
 	width: auto;
 	margin: 38px 0px 38px 0px;
 	text-align: left;
+	transition:0.5s;
 	@media only screen and (max-width: 565px) {
+		transition:0.5s;
 		font-size: 2rem;
 		width: 100%;
 		margin-bottom: 8px;
@@ -486,7 +669,7 @@ body {
 	width: auto;
 	margin: 50px 0px 30px 0px;
 	text-align: right;
-	@media only screen and (max-width: 565px) {
+	@media only screen and (max-width: 650px) {
 		float: left;
 		text-align: left;
 		width: 100%;
@@ -523,7 +706,7 @@ body {
 		float: left;
 		
 		@media only screen and (max-width: 765px){
-			padding-bottom: 20px;
+			padding-bottom: 25px;
 			width: 100%;
 			border-bottom: 1px solid $fill-blk;
 		}	
@@ -533,7 +716,9 @@ body {
 		width: 20%;
 		height: 50px;
 		text-align: right;
-		text-decoration: underline;
+		a:link {
+			// text-decoration: none;
+		}
 		@media only screen and (max-width: 765px){
 			width: 30%;
 			float: left;
@@ -556,12 +741,13 @@ body {
 	@include e('list-left') {
 		margin: 5px 0px 5px 0px;
 		padding: 0;
-		// @include m ('first') {
-		// 	margin-top: 10px;
-		// }
+
+
 		.light-list {
 			opacity: 0.7;
 		}
+
+
 	}
 
 	@include e('center') {
@@ -584,6 +770,39 @@ body {
 	}	
 }
 
+
+.plb {
+	@extend %mono-family;
+	font-size: 0.65rem;
+	width: 140px;
+	line-height: 2.2rem;
+	height: 32px;
+	background-color: $rd;
+	color: white;
+	text-align: center;
+	float: right;
+	cursor: pointer;
+	transition: 0.5s;
+
+	&:hover {
+		background-color: $blu;
+		transition:0.5s;
+	}
+
+	@media only screen and (max-width: 765px){
+			float: left;
+			transition: 0.5s;
+		}
+		@media only screen and (max-width: 480px){
+			width: 80px;
+			line-height: 1rem;
+			padding: 10px 10px 0px 10px;
+			height: 40px;
+			float: left;
+			transition: 0.5s;
+		}		
+
+}
 
 
 
@@ -621,20 +840,59 @@ body {
 	font-size: 0.72rem;
 }
 
+.blog {
+	background-color: $blu;
+}
+
 .preview {
 	@include e('container') {
+		transition-duration: 0.3s;
 		width: 100%;
 		height: 40vw;
 		min-height: 200px;
 		max-height: 600px;
 		margin: 25px 0px 25px 0px;
+
+		@include m('blog') {
+			height: 20vw;
+			max-height: 300px;
+			margin: 25px 0px 25px 0px;
+ 
+		}
+
+	}
+	@include e('blg') {
+		font-size: 0.8rem;
+		margin: 0% 3% 0 3%;
+		height: 100%;
+		line-height: 20vw;
+		color: #fff;
+		width: 25%;
+
+
+		@media only screen and (max-width:765px) {
+			font-size: 0.65rem;
+			margin: 0% 5% 0 5%;
+
+		}
+
+		@include m('left') {
+			float: left;
+		}
+		@include m('right') {
+			float: right;
+			text-align: right;
+		}
 	}
 
+
+
 	
-	@include e ('info') {
+	@include e('info') {
 		width: 100%;
 		height: 100%;
 		position: relative;
+
 
 
 
@@ -646,6 +904,7 @@ body {
 			float: left;
 			font-size: 0.8rem;
 			text-transform: uppercase;
+
 			@media only screen and (max-width: 765px) {
 				width: 90%;
 				margin: 3% 5% 0 5%;
@@ -672,21 +931,25 @@ body {
 			float: left;
 			margin: 0;
 			padding: 0;
+			// text-shadow: 0px 0px 20px #000;	 			
 		}		
 		@include m('topRight') {
 			float: right;
 			margin: 0;
 			padding: 0;
+			// text-shadow: 0px 0px 20px #000;	 			
 		}		
 		@include m('bottomleft') {
 			float: left;
 			margin: 0;
 			padding: 0;
+			// text-shadow: 0px 0px 20px #000;	 			
 		}		
 		@include m('bottomRight') {
 			float: right;
 			margin: 0;
 			padding: 0;
+			// text-shadow: 0px 0px 20px #000;	 			
 
 		}
 	}
@@ -694,23 +957,34 @@ body {
 
 .prj1 {
 	color: #fff;
-	// background-image: url(../images/risingtide/01.jpg);
-	background-color: $orange;
+	@include bgImage('../../images/risingtide/wire2.png',no-repeat,center,cover);
+	//rising tide
+	background-color: $blu;
 }
 .prj2 {
 	color: $type-blk;
+	@include bgImage('../../images/metro/cover.png',no-repeat,center,contain);
+	//metrolinx
 	background-color: $yellow;
 }
 .prj3 {
 	color: #fff;
-	background-color: $blu;
+	@include bgImage('../../images/we/we_gold_2.png',no-repeat,center,cover);
+	//we are one
+	background-color: #282626;
+	// background-color: $li-grey;
 }
 .prj4 {
 	color: #fff;
+	@include bgImage('../../images/consume/consume.png',no-repeat,center,contain);
+	//consume culture
 	background-color: $orange;
 }
 .prj5 {
 	color: $type-blk;
+	//transmedia
+	@include bgImage('../../images/p151/c151.png',no-repeat,center,contain);
+
 	background-color: $yellow;
 }
 .prj6 {
@@ -725,10 +999,13 @@ body {
 	color: $type-blk;
 	background-color: $yellow;
 }
-.prj9 {
-	color: #fff;
-	background-color: $orange;
+.prj-g {
+	color: $type-blk;
+	background-color: $yellow;
 }
+
+
+
 
 
 
@@ -755,7 +1032,7 @@ body {
 		float: left;
 		// -webkit-filter: invert(100%);
 		// filter: invert(100%);
-		// @include bgImage ('../images/placeholder.jpg',none,center,cover);
+		@include bgImage ('../images/placeholder.jpg',none,center,cover);
 		// background-color: hsl(120,50,80);
 		@media only screen and (max-width: 765px) {
 			width: 100%;
@@ -829,5 +1106,25 @@ body {
 }
 
 
+//        444444444       000000000            444444444  
+//       4::::::::4     00:::::::::00         4::::::::4  
+//      4:::::::::4   00:::::::::::::00      4:::::::::4  
+//     4::::44::::4  0:::::::000:::::::0    4::::44::::4  
+//    4::::4 4::::4  0::::::0   0::::::0   4::::4 4::::4  
+//   4::::4  4::::4  0:::::0     0:::::0  4::::4  4::::4  
+//  4::::4   4::::4  0:::::0     0:::::0 4::::4   4::::4  
+// 4::::444444::::4440:::::0 000 0:::::04::::444444::::444
+// 4::::::::::::::::40:::::0 000 0:::::04::::::::::::::::4
+// 4444444444:::::4440:::::0     0:::::04444444444:::::444
+//           4::::4  0:::::0     0:::::0          4::::4  
+//           4::::4  0::::::0   0::::::0          4::::4  
+//           4::::4  0:::::::000:::::::0          4::::4  
+//         44::::::44 00:::::::::::::00         44::::::44
+//         4::::::::4   00:::::::::00           4::::::::4
+//         4444444444     000000000             4444444444
 
 
+.four {
+	font-size: 4rem;
+	@extend %title-family;
+}

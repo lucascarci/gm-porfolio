@@ -11,7 +11,11 @@
   <body>
     <div class="main-container">
 
-    <?php require 'nav.php';?>
+    <?php 
+       $path = $_SERVER['DOCUMENT_ROOT'];
+       $path .= "/nav.php";
+       include_once($path);
+    ?>
 
      <div id="sand" class="sandbox">
         

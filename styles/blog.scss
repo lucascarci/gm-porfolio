@@ -3,11 +3,9 @@
 
 .blog-container {
 	margin: 0 auto;
-	width: 90%;
+	width: 80%;
 	max-width: 1100px;
-	min-width: 800px;
 	height: 100%;
-	text-align: left;
 }
 
 .posts-container {
@@ -23,7 +21,7 @@
 		width: 70%;
 		height: 200px;
 		margin: 0 auto;
-		background-color: hsl(220,50,88);
+		// background-color: hsl(220,50,88);
 	}
 	@include e('blog-title') {
 		@extend %title-family;
@@ -39,7 +37,7 @@
 	font-size: 0.8rem;
 
 	@include e('container') {
-		background-color: hsl(120,50,88);
+		// background-color: hsl(120,50,88);
 		width: 100%;
 		height: auto;
 		min-height: 250px;
@@ -55,10 +53,10 @@
 		}
 	}
 	@include e('info') {
-		width: 15%;
+		width: 100%;
 		min-width: 150px;
-		background-color: hsl(320,50,88);
-		height: 250px;
+		// background-color: hsl(320,50,88);
+		height: 120px;
 		float: left;
 
 	}
@@ -67,17 +65,20 @@
 
 	}
 	@include e('excerpt') {
-		width: 96%;
+		width: 100%;
 		height: auto;
+		float: left;
 	}
-	@include e('post-image') {
 
-	}
 	@include e('read-post') {
-
+		width: 100%;
+		height: auto;
+		float: right;
+		border-bottom: 1px solid hsl(0,0,88);
+		text-align: right;
+		padding-bottom: 10px;
 	}
 	@include e('content') {
-		background-color: red;
 		width: 80%;
 		height: auto;
 		float: right;
@@ -90,8 +91,8 @@
 	@include e('container') {
 		font-size: 0.75rem;
 		float: left;
-		width: 20%;
-		max-width: 170px;
+		width: 15%;
+		margin-left: 5%;
 		height: 100%;
 		list-style: none;
 
@@ -99,7 +100,7 @@
 	@include e('title') {
 		font-size: 0.95rem;
 		@extend %title-family;
-		border-bottom: 1px solid hsl(0,0,0);
+		// border-bottom: 1px solid hsl(0,0,0);
 		margin-top: 15px;
 
 		@include m('top') {
@@ -110,7 +111,8 @@
 		
 	}
 	@include e('post') {
-		padding-top: 3px;
+		padding-top: 8px;
+		line-height: 1.1rem;
 		
 		a {
 			@include border-under;

@@ -12,7 +12,11 @@
 	<body>
 		<div class="main-container">
 
-			 <?php require 'nav.php';?>
+			 <?php 
+			       $path = $_SERVER['DOCUMENT_ROOT'];
+			       $path .= "/nav.php";
+			       require($path);
+			    ?>
 
 
 			<div class="switch next"><a href="#">Next Project</a></div>
@@ -27,15 +31,15 @@
 					<a class="page__header--return" href="../work.php">< RETURN TO WORK</a>
 				</div>
 
-				<div class="project-title">The Rising Tide</div>
-				<div class="project-meta">2016 | Interactive</div>
+				<div class="project-title">Project Beta</div>
+				<div class="project-meta">Year | Type of Project</div>
 
 				<div class="project__break"></div>
 
 				<div class="project-info__left">
 					<li class="project-info__list-left project-info__list-left--first"><span class="light-list">Length:</span> 12 Weeks</li>
 					<li class="project-info__list-left"><span class="light-list">Tools:</span> Sketch, Adobe XD + Illustrator</li>
-					<li class="project-info__list-left"><span class="light-list">Other:</span></li>
+					<li class="project-info__list-left"><span class="light-list">Other: </span>School Project / Personal Project</li>
 				</div>
 
 				<div class="project-info__center">Using three.js (a library extension of WebGL) and basic JavaScript elements, we we’re tasked with visualizing some climate change, into an informational and educational way. I focused on the leading causes of climate change, and the potential threats they pose, as well as the possible ways to counter it.</div>
@@ -46,16 +50,29 @@
 				</div>
 			</div>
 			<div class="project-hero rising__1"></div>
-
-			<div class="project__body-copy">Climate Change is happening, and people need to believe it. Visualizing it in the simplest form is an excellent method of delivering the message. Using three.js (a library extension of WebGL) and basic JavaScript elements, we we’re tasked with visualizing some climate change, into an informational and educational way. I focused on the leading causes of climate change, and the potential threats they pose, as well as the possible ways to counter it.</div>
+				<div class="project__copy">
+				<div class="bdy bdy__h">Phase 1</div>
+				<div class="bdy bdy__s">Insert Runaway</div>
+				<div class="bdy bdy__c">Climate Change is happening, and people need to believe it. Visualizing it in the simplest form is an excellent method of delivering the message. Using three.js (a library extension of WebGL) and basic JavaScript elements, we we’re tasked with visualizing some climate change, into an informational and educational way. I focused on the leading causes of climate change, and the potential threats they pose, as well as the possible ways to counter it.</div>
+			</div>
 			
 			<div class="project-hero rising__2"></div>
 
-			<div class="project__body-copy">Climate Change is happening, and people need to believe it. Visualizing it in the simplest form is an excellent method of delivering the message. Using three.js (a library extension of WebGL) and basic JavaScript elements, we we’re tasked with visualizing some climate change, into an informational and educational way. I focused on the leading causes of climate change, and the potential threats they pose, as well as the possible ways to counter it.</div>
+			<div class="project__copy">
+				<div class="bdy bdy__h">Phase 1</div>
+				<div class="bdy bdy__s">Insert Runaway</div>
+				<div class="bdy bdy__c">Climate Change is happening, and people need to believe it. Visualizing it in the simplest form is an excellent method of delivering the message. Using three.js (a library extension of WebGL) and basic JavaScript elements, we we’re tasked with visualizing some climate change, into an informational and educational way. I focused on the leading causes of climate change, and the potential threats they pose, as well as the possible ways to counter it.</div>
+			</div>
 
+		<!-- 	<div class="body-h body-h__mHead">“Someone once told me not to bite off more than i could chew. I said id rather choke on greatness than nibble on mediocrity.”</div>
+ -->
 			<div class="project-hero rising__3"></div>
 
-			<div class="project__body-copy">Climate Change is happening, and people need to believe it. Visualizing it in the simplest form is an excellent method of delivering the message. Using three.js (a library extension of WebGL) and basic JavaScript elements, we we’re tasked with visualizing some climate change, into an informational and educational way. I focused on the leading causes of climate change, and the potential threats they pose, as well as the possible ways to counter it.</div>
+			<div class="project__copy">
+				<div class="bdy bdy__h">Phase 1</div>
+				<div class="bdy bdy__s">Creating the mockups for the final designs to be built</div>
+				<div class="bdy bdy__c">Climate Change is happening, and people need to believe it. Visualizing it in the simplest form is an excellent method of delivering the message. Using three.js (a library extension of WebGL) and basic JavaScript elements, we we’re tasked with visualizing some climate change, into an informational and educational way. I focused on the leading causes of climate change, and the potential threats they pose, as well as the possible ways to counter it.</div>
+			</div>
 
 			<div class="project-hero"></div>
 			<div class="project-hero"></div>
@@ -63,9 +80,18 @@
 
 
 
+	<?php 
+       $path = $_SERVER['DOCUMENT_ROOT'];
+       $path .= "/nextProj.php";
+       include_once($path);
+    ?>
 
-		<?php require 'nextProj.php';?>
-		<?php require 'footer.php';?>
+    <?php 
+       $path = $_SERVER['DOCUMENT_ROOT'];
+       $path .= "/footer.php";
+       include_once($path);
+	?>
+
 		</div>
 				
 		

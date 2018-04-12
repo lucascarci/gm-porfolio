@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAcA,eAAc;EACb,WAAW,EAAC,6BAA6B;EACzC,KAAK,EChBK,OAAa;;ADwDxB,cAAe;EACd,WAAW,EAAE,6BAA6B;EAC1C,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,MAAM;EACnB,cAAc,EAAC,OAAO;EACtB,KAAK,EC7DK,OAAa;;ADgExB,eAAgB;EAEf,SAAS,EAAC,KAAK;EACf,WAAW,EAAC,IAAI;EAChB,cAAc,EAAC,OAAO",
-"sources": ["_typography.scss","_var.scss"],
-"names": [],
-"file": "project_beta.css"
-}

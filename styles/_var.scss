@@ -1,9 +1,10 @@
-$type-blk: hsl(0,0%,25%);
+$type-blk: hsl(250,7%,16%);
 $fill-blk: hsl(0,0%,10%);
 $li-grey: hsl(0,0%,96%);
+$m-grey: hsl(0,0%,70%);
 $orange: hsl(15,94,54);
 $yellow: hsl(47,98,50);
-$blu: hsl(220,89,45);
+$blu: hsl(215,89,45);
 $rd: hsl(360,100%,50%);
 $v-center-nav: 33px;
 $hov-c: black;
@@ -23,8 +24,8 @@ $hov-c: black;
 }
 
 @mixin border-under {
-	border-bottom: 1px hsl(0,0,80);
-	border-bottom-style: dotted;
+	border-bottom: 1px hsl(0,0,87);
+	border-bottom-style: solid;
 	&:hover {
 		border-bottom-color: $hov-c;
 	}
