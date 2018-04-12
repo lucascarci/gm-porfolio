@@ -36,7 +36,7 @@
 
 				<div class="project-info__left">
 					<li class="project-info__list-left project-info__list-left--first"><span class="light-list">Length: </span>12 Weeks</li>
-					<li class="project-info__list-left"><span class="light-list">Tools: </span>Autodesk Maya, Adobe Illustrator</li>
+					<li class="project-info__list-left"><span class="light-list">Tools: </span>Autodesk Maya</li>
 					<li class="project-info__list-left"><span class="light-list">Languages: </span>JavaScript + Three.js</li>
 					
 				</div>
@@ -44,10 +44,11 @@
 				<div class="project-info__center">The Level of Carbon Dioxide in the air is measured in Parts per Million. The Earth should rest around 350ppm(parts per million). In April of 2016, it was recorded at an all time high of 412ppm. Climate change is becoming and increasingly important matter which requires more attention. In order to deliver this message, I created an interactive experience for users, to see the current state of our planet, as well as the fate that is in store for them.</div>
 
 				<div class="project-info__right">
-					<li class="project-info__list-right plb"><a>LAUNCH PROJECT</li>
+					<li class="project-info__list-right plb"><a>LAUNCH PROJECT</a></li>
 				</div>
 			</div>
 			<div class="project-hero rising__1"></div>
+			<div class="caption">Rendered in Autodesk Maya - Arnold 5 Engine</div>
 
 			<div class="project-hero rising__4">
 				<!-- <div class="project-hero__half h-1 rising__5"></div> -->
@@ -78,7 +79,7 @@
 			<!-- <div class="project-hero rising__5"></div> -->
 			<div class="project__copy">
 				<div class="bdy bdy__h">Learning Outcomes</div>
-				<div class="bdy bdy__s"><li class="project-info__list-right plb r-button"><a>LAUNCH PROJECT</li></div>
+				<div class="bdy bdy__s"><li style="top:-60px;" class="project-info__list-right plb r-button"><a>LAUNCH PROJECT</a></li></div>
 				<div class="bdy bdy__c">Probably one of the most challenging aspects of this project, was creating a 3D Model of a reasonable size. File size was a great issue when it came to the project bandwidth. I aimed to keep the 3D model within 5MB in size for quick loadtimes when visiting. Especially when transferring the model, lights and materials. I had to limit myself to how many minor details I added. This meant removing windows, buildings street lamps, bushes cars and many trees.</div>
 			<div class="project-hero-break"></div>
 

@@ -2,7 +2,7 @@
   font-family: "MaisonNeue-Medium", sans-serif;
   color: #27262c; }
 
-body, .page__header--description, .page__header--return, .footer, .footer__project, .switch, .bdy__s, .plb, .work, .about__get-in-touch {
+body, .page__header--description, .page__header--return, .footer, .footer__project, .switch, .bdy__s, .plb, .caption, .work, .about__get-in-touch {
   font-family: "MaisonNeue-Mono", monospace;
   color: #27262c; }
 
@@ -386,6 +386,9 @@ body {
     line-height: 1.9rem;
     margin: 0% 2% 6% 0%;
     font-size: 2rem; }
+    @media only screen and (max-width: 600px) {
+      .bdy__h {
+        font-size: 1.5rem; } }
     @media only screen and (max-width: 765px) {
       .bdy__h {
         border-top: none;
@@ -401,6 +404,9 @@ body {
     text-transform: uppercase;
     font-size: 0.75rem;
     letter-spacing: -0.008rem; }
+    @media only screen and (max-width: 600px) {
+      .bdy__s {
+        font-size: 0.65rem; } }
     @media only screen and (max-width: 765px) {
       .bdy__s {
         width: 48%;
@@ -414,6 +420,9 @@ body {
     margin: 0% 0% 6% 0%;
     font-size: 16px;
     line-height: 26px; }
+    @media only screen and (max-width: 600px) {
+      .bdy__c {
+        font-size: 14px; } }
     @media only screen and (max-width: 765px) {
       .bdy__c {
         width: 100%; } }
@@ -541,11 +550,13 @@ body {
       .project-info__center {
         width: 60%;
         margin-top: 20px;
+        margin-bottom: 50px;
         float: right; } }
     @media only screen and (max-width: 370px) {
       .project-info__center {
         width: 100%;
         margin-top: 20px;
+        margin-bottom: 15px;
         float: left; } }
 
 .plb {
@@ -558,7 +569,8 @@ body {
   text-align: center;
   float: right;
   cursor: pointer;
-  transition: 0.5s; }
+  transition: 0.5s;
+  position: relative; }
   .plb:hover {
     background-color: #0d62d9;
     transition: 0.5s; }
@@ -574,6 +586,19 @@ body {
       height: 40px;
       float: left;
       transition: 0.5s; } }
+  @media only screen and (max-width: 370px) {
+    .plb {
+      top: -20px;
+      width: 74vw;
+      height: 25px; } }
+
+.caption {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  padding-bottom: 20px; }
+  @media only screen and (max-width: 765px) {
+    .caption {
+      margin-left: 33px; } }
 
 .sandbox {
   width: 100%;
