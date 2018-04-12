@@ -366,6 +366,10 @@ body {
   .video-link {
     padding-bottom: 28px; } }
 
+@media only screen and (max-width: 370px) {
+  .b-button {
+    top: -20px !important; } }
+
 .r-button {
   float: left !important;
   list-style: none;
@@ -530,15 +534,14 @@ body {
         width: 100%;
         float: left;
         text-align: left;
-        margin-top: 20px; } }
+        margin-top: 20px;
+        margin-bottom: 40px; } }
   .project-info__list-right {
     margin: 5px 0px 5px 0px;
     padding: 0; }
   .project-info__list-left {
     margin: 5px 0px 5px 0px;
     padding: 0; }
-    .project-info__list-left .light-list {
-      opacity: 0.7; }
   .project-info__center {
     width: 52%;
     height: auto;
@@ -564,7 +567,6 @@ body {
   width: 140px;
   line-height: 2.2rem;
   height: 32px;
-  background-color: red;
   color: white;
   text-align: center;
   float: right;
@@ -588,7 +590,7 @@ body {
       transition: 0.5s; } }
   @media only screen and (max-width: 370px) {
     .plb {
-      top: -20px;
+      top: -60px;
       width: 74vw;
       height: 25px; } }
 
@@ -598,7 +600,16 @@ body {
   padding-bottom: 20px; }
   @media only screen and (max-width: 765px) {
     .caption {
-      margin-left: 33px; } }
+      margin-left: 33px;
+      width: 78%;
+      line-height: 0.8rem; } }
+
+.cb {
+  background-color: #f8531b; }
+
+.cb-l {
+  background-color: #fcc603;
+  color: #27262c; }
 
 .sandbox {
   width: 100%;
