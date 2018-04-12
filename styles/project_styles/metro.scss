@@ -14,9 +14,9 @@
 	@include e('3') {
 		@include bgImage('../../images/metro/02.png',no-repeat,center,contain);
 	}
-	@include e('4') {
-		@include bgImage('../../images/metro/03.png',no-repeat,center,contain);
-	}	
+	// @include e('4') {
+	// 	@include bgImage('../../images/metro/03.png',no-repeat,center,contain);
+	// }	
 	@include e('5') {
 		@include bgImage('../../images/metro/04.png',no-repeat,center,contain);
 	}

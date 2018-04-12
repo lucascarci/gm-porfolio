@@ -52,6 +52,7 @@
           </div>
         </div>
       </a> -->
+
       <a href="projects/the-rising-tide.php">
         <div class="preview__container prj1">
           <div class="preview__info--top">
@@ -80,7 +81,7 @@
         </div>
       </a>
 
-  <a href="projects/transmedia.php">
+    <a href="projects/transmedia.php">
         <div class="preview__container prj5">
           <div class="preview__info--top">
             <p class="preview__info--topleft">Project 151</p>
@@ -94,20 +95,6 @@
         </div>
       </a>
 
-      <!--  <a href="projects/keeping-it-canadian.php">
-        <div class="preview__container prj-g">
-          <div class="preview__info--top">
-            <p class="preview__info--topleft">Keeping It Canadian</p>
-            <p class="preview__info--topRight">2018</p>
-          </div>
-
-          <div class="preview__info--bottom">
-            <p class="preview__info--bottomleft">Data Visualization</p>
-            <p class="preview__info--bottomRight">13 Weeks</p>
-          </div>
-        </div>
-      </a>
- -->
       <a href="projects/consume-culture.php">
         <div class="preview__container prj4">
           <div class="preview__info--top">

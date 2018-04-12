@@ -66,7 +66,6 @@
 
 		<!-- 	<div class="body-h body-h__mHead">“Someone once told me not to bite off more than i could chew. I said id rather choke on greatness than nibble on mediocrity.”</div>
  -->
-			<div class="project-hero metro__4"></div>
 			<div class="project-hero metro__5"></div>
 
 			<div class="project__copy">
