@@ -9,16 +9,23 @@
 		background-color: $orange;
 	}
 	@include e('2') {
-		@include bgImage('../../images/risingtide/02.jpg',no-repeat,center,cover);
+		@include bgImage('../../images/consume/consume.png',no-repeat,center,contain);
 	}
 	@include e('3') {
-		@include bgImage('../../images/risingtide/03.jpg',no-repeat,center,cover);
+		@include bgImage('../../images/consume/consume.png',no-repeat,center,contain);
 	}	
 	@include e('4') {
-		@include bgImage('../../images/risingtide/01.jpg',no-repeat,center,cover);
+		@include bgImage('../../images/consume/instagram.png',no-repeat,center-top,cover);
 	}
 	@include e('5') {
-		@include bgImage('../../images/risingtide/05.png',no-repeat,center,cover);
+		@include bgImage('../../images/consume/consume.png',no-repeat,center,contain);
 	}
 }
 
+.h-1 {
+	@include bgImage('../../images/consume/consume.png',no-repeat,center,contain);
+}
+.h-2 {
+	@include bgImage('../../images/consume/consume.png',no-repeat,center,contain);
+
+}

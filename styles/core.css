@@ -421,8 +421,7 @@ body {
   height: 50vw;
   clear: both;
   margin: 20px 0px 20px 0px;
-  min-height: 200px;
-  background-color: whitesmoke; }
+  min-height: 200px; }
   .project-hero__half {
     width: 50%;
     float: left;

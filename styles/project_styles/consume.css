@@ -21,24 +21,36 @@
   background-size: contain;
   background-color: #f8531b; }
 .rising__2 {
-  background-image: url("../../images/risingtide/02.jpg");
+  background-image: url("../../images/consume/consume.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
+  background-size: contain; }
 .rising__3 {
-  background-image: url("../../images/risingtide/03.jpg");
+  background-image: url("../../images/consume/consume.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
+  background-size: contain; }
 .rising__4 {
-  background-image: url("../../images/risingtide/01.jpg");
+  background-image: url("../../images/consume/instagram.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center-top;
   background-size: cover; }
 .rising__5 {
-  background-image: url("../../images/risingtide/05.png");
+  background-image: url("../../images/consume/consume.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
+  background-size: contain; }
+
+.h-1 {
+  background-image: url("../../images/consume/consume.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+.h-2 {
+  background-image: url("../../images/consume/consume.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
 
 /*# sourceMappingURL=consume.css.map */

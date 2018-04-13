@@ -57,6 +57,10 @@
 			</div>
 			
 			<div class="project-hero rising__2"></div>
+			<div class="project-hero">
+				<div class="project-hero__half h-1 rising__5"></div>
+				<div class="project-hero__half h-2 rising__4"></div>
+			</div>
 
 			<div class="project__copy">
 				<div class="bdy bdy__h">Brands</div>
@@ -72,7 +76,7 @@
 				<div class="bdy bdy__c">Climate Change is happening, and people need to believe it. Visualizing it in the simplest form is an excellent method of delivering the message. Using three.js (a library extension of WebGL) and basic JavaScript elements, we we’re tasked with visualizing some climate change, into an informational and educational way. I focused on the leading causes of climate change, and the potential threats they pose, as well as the possible ways to counter it.</div>
 			</div>
 
-			<div class="project-hero"></div>
+			<div class="project-hero rising__4"></div>
 			<div class="project__copy">
 				<div class="bdy bdy__h">Delivery</div>
 				<div class="bdy bdy__c"></div>
