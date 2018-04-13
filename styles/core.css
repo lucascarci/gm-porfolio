@@ -416,17 +416,28 @@ body {
   text-align: left;
   text-decoration: underline; }
 
+.project-hero-two {
+  width: 100%;
+  height: 30vw;
+  clear: both;
+  margin: 20px 0px 20px 0px;
+  min-height: 200px; }
+  .project-hero-two__half {
+    width: 48%;
+    float: left;
+    height: 100%;
+    position: relative; }
+    .project-hero-two__half--l {
+      margin: 0% 2% 0% 0%; }
+    .project-hero-two__half--r {
+      margin: 0% 0% 0% 2%; }
+
 .project-hero {
   width: 100%;
   height: 50vw;
   clear: both;
   margin: 20px 0px 20px 0px;
   min-height: 200px; }
-  .project-hero__half {
-    width: 50%;
-    float: left;
-    height: 100%;
-    position: relative; }
 
 .project-hero-break {
   width: 100%;

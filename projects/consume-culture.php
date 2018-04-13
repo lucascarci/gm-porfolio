@@ -42,46 +42,70 @@
 					<li class="project-info__list-left"><span class="light-list">Collaboration: </span> <a style="text-decoration: underline;" target="_blank" href="http://www.kasparso.com/"><i>Kaspar So</i></a></li>
 				</div>
 
-				<div class="project-info__center">Using three.js (a library extension of WebGL) and basic JavaScript elements, we we’re tasked with visualizing some climate change, into an informational and educational way. I focused on the leading causes of climate change, and the potential threats they pose, as well as the possible ways to counter it.</div>
+				<div class="project-info__center">Consumerism is occupying more and more space in the western world. The consumerist society has made us feel that happiness comes from having things — material goods. Making extravagant purchases on shoes, shirts, hats, or fast food, directly affects you in the moment— ignoring the long run. What you value or what we value is key to how we want to live our lives. If we constantly live in the now, we will never get what we want tomorrow.</div>
 
 				<div class="project-info__right">
-					<li class="project-info__list-right b-button cb plb"><a>SOCIAL MEDIA</a></li>
-					<li class="project-info__list-right b-button cb-l plb"><a>ONLINE STORE</a></li>
+					<a href="https://www.instagram.com/consumeculture/" target="_blank"><li class="project-info__list-right b-button cb plb">SOCIAL MEDIA</li></a>
+					<a href="../../images/we/branding_guide.pdf" target="_blank"><li class="project-info__list-right b-button cb plb">ONLINE STORE</li></a>  
 				</div>
 
 			</div>
+			
 			<div class="project-hero rising__1"></div>
 				<div class="project__copy">
-				<div class="bdy bdy__h">Concept</div>
-				<div class="bdy bdy__c">Help</div>
+				<div class="bdy bdy__h">Statement</div>
+				<div class="bdy bdy__c">How might we help the general public realize their over-investment in material goods? It is a look towards minimalism. Removing the noise from your life — the space you fill with empty goods with of zero value, unless someone says it has it. <br>You have to question the value of the contents you own and continue to buy — <i>Do you <b>Really</b> need this?</i>The objective we hope to push with this campaign, is self-realizations. Acknowledging that you, as an individual are putting material objects, labeled as high value, before yourself.</div>
 			</div>
 			
-			<div class="project-hero rising__2"></div>
-			<div class="project-hero">
-				<div class="project-hero__half h-1 rising__5"></div>
-				<div class="project-hero__half h-2 rising__4"></div>
-			</div>
+			<!-- <div class="project-hero rising__2"></div>
+
+			<div class="project-hero-two">
+				<div class="project-hero-two__half project-hero-two__half--l h-1 rising__5"></div>
+				<div class="project-hero-two__half project-hero-two__half--r h-2 rising__4"></div>
+			</div> -->
 
 			<div class="project__copy">
-				<div class="bdy bdy__h">Brands</div>
-				<div class="bdy bdy__c">Choosing brands that were closly associated with the concept of "Buy Buy Buy", </div>
+				<div class="bdy bdy__h">Concept</div>
+				<div class="bdy bdy__c">In order for individuals to realize that what they are doing is crazy, they have to be caught in the act of what they are doing. With online shopping and the floating idea of — <i>I'm going to miss out on this limited offer/product</i> — you get a massive influx of individuals struggling to purchase items.<br> Posing as an Online Store, we can trick individuals into believing that the content on the site is real an available, however, once they try to go through the process to purchase an item, the user is prompted with a new window. The user gets caught red handed.<br> Individuals will reflect on their spending habits, getting them to question themselves 'Are Material objects worth what they believe it is worth' — are they overvaluing it? How much of their time is committed to indulgence of material goods?By asking these questions, the user is reassessing their emotional values as well as their monetary ones. Their emotional alignment should be with themselves, as they are also one of the victims of consumerism culture.</div>
 			</div>
 
 		<!-- 	<div class="body-h body-h__mHead">“Someone once told me not to bite off more than i could chew. I said id rather choke on greatness than nibble on mediocrity.”</div>
  -->
-			<div class="project-hero rising__3"></div>
+			<!-- <div class="project-hero rising__3"></div> -->
+
+			<div class="project__copy">
+				<div class="bdy bdy__h">Brands</div>
+				<div class="bdy bdy__c">We decided to rip off other brands, getting their logos, and putting our name on them. This included many of the popular consumer brands we see today, like: Nike, Adidas, Supreme, McDonalds, Costco, and Walmart. The idea is to sell clothing with the word "Consume" replacing the brand names, but styled using the same look. </div>
+			</div>
+
+			<div class="project-hero-break"></div>
 
 			<div class="project__copy">
 				<div class="bdy bdy__h">Execution</div>
-				<div class="bdy bdy__c">Climate Change is happening, and people need to believe it. Visualizing it in the simplest form is an excellent method of delivering the message. Using three.js (a library extension of WebGL) and basic JavaScript elements, we we’re tasked with visualizing some climate change, into an informational and educational way. I focused on the leading causes of climate change, and the potential threats they pose, as well as the possible ways to counter it.</div>
+				<div class="bdy bdy__c">We decided to rip off other brands, getting their logos, and putting our name on them. This included many of the popular consumer brands we see today, like: Nike, Adidas, Supreme, McDonalds, Costco, and Walmart. The idea is to sell clothing with the word "Consume" replacing the brand names, but styled using the same look. </div>
 			</div>
 
-			<div class="project-hero rising__4"></div>
+			<div class="project-hero-break"></div>
+
 			<div class="project__copy">
-				<div class="bdy bdy__h">Delivery</div>
-				<div class="bdy bdy__c"></div>
+				<div class="bdy bdy__h">Online Store</div>
+				<div class="bdy bdy__c"><a href="https://www.instagram.com/consumeculture/" target="_blank" style="color: red; text-decoration: underline;"><b>Consume Culture</b></a> — Posing as a false retailer, we gave people the impression they could purchase our content for extravagant prices. Only to prompt them with an alternative method to living life — Minimalism.</div>
+			</div>	
+
+			<div class="project-hero-break"></div>	
+
+			<div class="project__copy">
+				<div class="bdy bdy__h">Instagram</div>
+				<div class="bdy bdy__c"><a href="https://www.instagram.com/consumeculture/" target="_blank" style="color: red; text-decoration: underline;"><b>@ConsumeCulture</b></a> — To gain traction on our online store, we use Instagram as a primary place of advertisement. Redirecting users to our site, as well as counting the likes, growth and view on our page. This was all before Instagram had their analytics built in to track users and activity.</div>
 			</div>
-			<div class="project-hero"></div>
+			<div class="project-hero-break"></div>
+
+			<!-- <div class="project-hero rising__4"></div> -->
+			<div class="project__copy">
+				<div class="bdy bdy__h">Results</div>
+				<div class="bdy bdy__c">We posted the photos in one day, rapidly gathering followers and likes. The website activity was local to the southern Ontario, CA region, however it spread into Europe, but mostly in the Eastern United States.</div>
+			</div>
+			<div class="project-hero-break"></div>
 		</div>
 
 
