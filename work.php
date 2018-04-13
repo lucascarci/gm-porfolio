@@ -103,8 +103,8 @@
           </div>
 
           <div class="preview__info--bottom">
-            <p class="preview__info--bottomleft">Visual Design + Branding</p>
-            <p class="preview__info--bottomRight">10 WEEKS</p>
+            <p class="preview__info--bottomleft">Social Campaign</p>
+            <p class="preview__info--bottomRight">6 WEEKS</p>
           </div>
         </div>
       </a>

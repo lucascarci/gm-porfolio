@@ -59,7 +59,7 @@
 
 			<div class="project__copy">
 				<div class="bdy bdy__h">Process</div>
-				<div class="bdy bdy__s">City Intersection</div>
+				<!-- <div class="bdy bdy__s">City Intersection</div> -->
 				<div class="bdy bdy__c">Looking at the view</div>
 			</div>
 			<div class="project-hero rising__3"></div>
@@ -71,7 +71,7 @@
 
 			<div class="project__copy">
 				<div class="bdy bdy__h">Modeling</div>
-				<div class="bdy bdy__s">Low Poly - Fast Loading</div>
+				<!-- <div class="bdy bdy__s">Low Poly - Fast Loading</div> -->
 				<div class="bdy bdy__c">Looking at the view</div>
 			</div>
 
@@ -83,8 +83,7 @@
 			</div>
 			<!-- <div class="project-hero rising__5"></div> -->
 			<div class="project__copy">
-				<div class="bdy bdy__h">Learning Outcomes</div>
-				<div class="bdy bdy__s"><li class="project-info__list-right cb plb r-button"><a>LAUNCH PROJECT</a></li></div>
+				<div class="bdy bdy__h">Learning Outcomes<br></div>
 				<div class="bdy bdy__c">Probably one of the most challenging aspects of this project, was creating a 3D Model of a reasonable size. File size was a great issue when it came to the project bandwidth. I aimed to keep the 3D model within 5MB in size for quick loadtimes when visiting. Especially when transferring the model, lights and materials. I had to limit myself to how many minor details I added. This meant removing windows, buildings street lamps, bushes cars and many trees.</div>
 			<div class="project-hero-break"></div>
 

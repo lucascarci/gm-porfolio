@@ -5,7 +5,8 @@
 .rising {
 
 	@include e('1') {
-		@include bgImage('../../images/risingtide/04.jpeg',no-repeat,center,cover);
+		@include bgImage('../../images/consume/consume.png',no-repeat,center,contain);
+		background-color: $orange;
 	}
 	@include e('2') {
 		@include bgImage('../../images/risingtide/02.jpg',no-repeat,center,cover);

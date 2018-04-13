@@ -534,14 +534,9 @@ body {
 
 
 .video-link {
-		@media only screen and (max-width: 765px) {
-			padding-bottom: 45px;
-			background-color: #fff !important;
-		}
-		@media only screen and (max-width: 455px) {
-			padding-bottom: 28px;
-		}
-	}
+	background-color: #fff !important;
+
+}
 
 
 .b-button {
@@ -560,8 +555,11 @@ body {
 }
 
 .bdy {
-	padding-top: 10px; 
-	border-top: 1px solid $m-grey;
+	padding-top: 10px;
+
+
+
+	// border-top: 1px solid $m-grey;
 
 	@include e('h') {
 		width: 20%;
@@ -580,45 +578,49 @@ body {
 			border-top:none;
 			width: 48%;
 			margin: 0% 4% 0% 0%;
-			padding-bottom: 8px;
-			padding-top: 8px;
+			// padding-bottom: 8px;
+			// padding-top: 8px;
 		}
 
 	}	
-	@include e('s') {
-		float: left;
-		width: 20%;
-		height: 100%;
-		margin: 0% 2% 6% 0%;
-		text-transform: uppercase;
-		@extend %mono-family;
-		font-size: 0.75rem;
-		letter-spacing: -0.008rem;
-		@media only screen and (max-width: 600px) {
-			font-size: 0.65rem;
-		}
-		@media only screen and (max-width: 765px) {
-			width: 48%;
-			margin:0%;
-			padding-bottom: 6px;
-			border-top:none;
+	// @include e('s') {
+	// 	float: left;
+	// 	width: 20%;
+	// 	height: 100%;
+	// 	margin: 0% 2% 6% 0%;
+	// 	text-transform: uppercase;
+	// 	@extend %mono-family;
+	// 	font-size: 0.75rem;
+	// 	letter-spacing: -0.008rem;
+	// 	@media only screen and (max-width: 600px) {
+	// 		font-size: 0.65rem;
+	// 	}
+	// 	@media only screen and (max-width: 765px) {
+	// 		width: 48%;
+	// 		margin:0%;
+	// 		padding-bottom: 6px;
+	// 		border-top:none;
 
 
-		}
-	}
+	// 	}
+	// }
 	@include e('c') {
-		width: 56%;
+		@extend %mono-family;
+		width: 76%;
 		height: 100%;
 		float: left;
 		margin: 0% 0% 6% 0%;
-		font-size: 16px;
-		line-height: 26px;
+		font-size: 12px;
+		line-height: 16px;
+		columns: 2;
+		column-gap: 15px;
+
 		@media only screen and (max-width: 600px) {
-			font-size: 14px;
+			font-size: 12px;
 		}
 		@media only screen and (max-width: 765px) {
 			width: 100%;
-
+			columns: 1;
 		}
 	}	
 
@@ -766,7 +768,7 @@ body {
 		height: auto;
 		float: left;
 		margin-bottom: 50px;
-		margin-top: 10px;
+		margin-top: 5px;
 		text-align: left;
 		@media only screen and (max-width: 765px){
 			width: 60%;
@@ -843,6 +845,9 @@ body {
 .cb-l {
 	background-color: $yellow;
 	color: $type-blk;
+	&:hover {
+		color: #fff;
+	}
 }
 
 
@@ -1016,7 +1021,7 @@ body {
 }
 .prj4 {
 	color: #fff;
-	@include bgImage('../../images/consume/consume.png',no-repeat,center,contain);
+	@include bgImage('../../images/consume/consume_cover.png',no-repeat,center,contain);
 	//consume culture
 	background-color: $orange;
 }

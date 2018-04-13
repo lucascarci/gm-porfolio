@@ -2,7 +2,7 @@
   font-family: "MaisonNeue-Medium", sans-serif;
   color: #27262c; }
 
-body, .page__header--description, .page__header--return, .footer, .footer__project, .switch, .bdy__s, .plb, .caption, .work, .about__get-in-touch {
+body, .page__header--description, .page__header--return, .footer, .footer__project, .switch, .bdy__c, .plb, .caption, .work, .about__get-in-touch {
   font-family: "MaisonNeue-Mono", monospace;
   color: #27262c; }
 
@@ -358,13 +358,8 @@ body {
       .project__copy {
         width: 80%; } }
 
-@media only screen and (max-width: 765px) {
-  .video-link {
-    padding-bottom: 45px;
-    background-color: #fff !important; } }
-@media only screen and (max-width: 455px) {
-  .video-link {
-    padding-bottom: 28px; } }
+.video-link {
+  background-color: #fff !important; }
 
 @media only screen and (max-width: 370px) {
   .b-button {
@@ -380,8 +375,7 @@ body {
       top: -10px; } }
 
 .bdy {
-  padding-top: 10px;
-  border-top: 1px solid #b3b3b3; }
+  padding-top: 10px; }
   .bdy__h {
     width: 20%;
     height: 100%;
@@ -397,39 +391,23 @@ body {
       .bdy__h {
         border-top: none;
         width: 48%;
-        margin: 0% 4% 0% 0%;
-        padding-bottom: 8px;
-        padding-top: 8px; } }
-  .bdy__s {
-    float: left;
-    width: 20%;
-    height: 100%;
-    margin: 0% 2% 6% 0%;
-    text-transform: uppercase;
-    font-size: 0.75rem;
-    letter-spacing: -0.008rem; }
-    @media only screen and (max-width: 600px) {
-      .bdy__s {
-        font-size: 0.65rem; } }
-    @media only screen and (max-width: 765px) {
-      .bdy__s {
-        width: 48%;
-        margin: 0%;
-        padding-bottom: 6px;
-        border-top: none; } }
+        margin: 0% 4% 0% 0%; } }
   .bdy__c {
-    width: 56%;
+    width: 76%;
     height: 100%;
     float: left;
     margin: 0% 0% 6% 0%;
-    font-size: 16px;
-    line-height: 26px; }
+    font-size: 12px;
+    line-height: 16px;
+    columns: 2;
+    column-gap: 15px; }
     @media only screen and (max-width: 600px) {
       .bdy__c {
-        font-size: 14px; } }
+        font-size: 12px; } }
     @media only screen and (max-width: 765px) {
       .bdy__c {
-        width: 100%; } }
+        width: 100%;
+        columns: 1; } }
 
 .project-return {
   width: 100%;
@@ -547,7 +525,7 @@ body {
     height: auto;
     float: left;
     margin-bottom: 50px;
-    margin-top: 10px;
+    margin-top: 5px;
     text-align: left; }
     @media only screen and (max-width: 765px) {
       .project-info__center {
@@ -610,6 +588,8 @@ body {
 .cb-l {
   background-color: #fcc603;
   color: #27262c; }
+  .cb-l:hover {
+    color: #fff; }
 
 .sandbox {
   width: 100%;
@@ -733,7 +713,7 @@ body {
 
 .prj4 {
   color: #fff;
-  background-image: url("../../images/consume/consume.png");
+  background-image: url("../../images/consume/consume_cover.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

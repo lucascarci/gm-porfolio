@@ -15,10 +15,11 @@
   letter-spacing: 0.05rem; }
 
 .rising__1 {
-  background-image: url("../../images/risingtide/04.jpeg");
+  background-image: url("../../images/consume/consume.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
+  background-size: contain;
+  background-color: #f8531b; }
 .rising__2 {
   background-image: url("../../images/risingtide/02.jpg");
   background-repeat: no-repeat;
