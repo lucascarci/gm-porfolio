@@ -21,25 +21,38 @@
   background-size: contain;
   background-color: #f8531b; }
 .rising__2 {
-  background-image: url("../../images/consume/consume.png");
+  background-image: url("../../images/consume/consumeProd/bigMacBigCon.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain; }
+  background-size: cover; }
 .rising__3 {
-  background-image: url("../../images/consume/consume.png");
+  background-image: url("../../images/consume/consumeProd/001.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain; }
+  background-size: cover;
+  background-color: #f8531b; }
 .rising__4 {
   background-image: url("../../images/consume/instagram.png");
   background-repeat: no-repeat;
   background-position: center-top;
   background-size: cover; }
 .rising__5 {
-  background-image: url("../../images/consume/consume.png");
+  background-image: url("../../images/consume/consume_cover.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain; }
+  background-size: contain;
+  background-color: #f8531b; }
+.rising__6 {
+  background-image: url("../../images/consume/brands.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #f8531b; }
+.rising__7 {
+  background-image: url("../../images/consume/consumeProd/instapost2twofournine.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
 .h-1 {
   background-image: url("../../images/consume/consumeImg/273A4172.jpg");

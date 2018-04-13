@@ -1,0 +1,69 @@
+
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/31b196");
+
+  
+@font-face {font-family: 'CoreSansC-55Medium';src: url('webfonts/31B196_0_0.eot');src: url('webfonts/31B196_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31B196_0_0.woff2') format('woff2'),url('webfonts/31B196_0_0.woff') format('woff'),url('webfonts/31B196_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansC-75ExtraBold';src: url('webfonts/31B196_1_0.eot');src: url('webfonts/31B196_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31B196_1_0.woff2') format('woff2'),url('webfonts/31B196_1_0.woff') format('woff'),url('webfonts/31B196_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansC-65Bold';src: url('webfonts/31B196_2_0.eot');src: url('webfonts/31B196_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31B196_2_0.woff2') format('woff2'),url('webfonts/31B196_2_0.woff') format('woff'),url('webfonts/31B196_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansC-55MediumIt';src: url('webfonts/31B196_3_0.eot');src: url('webfonts/31B196_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31B196_3_0.woff2') format('woff2'),url('webfonts/31B196_3_0.woff') format('woff'),url('webfonts/31B196_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansC-75ExtraBoldIt';src: url('webfonts/31B196_4_0.eot');src: url('webfonts/31B196_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31B196_4_0.woff2') format('woff2'),url('webfonts/31B196_4_0.woff') format('woff'),url('webfonts/31B196_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansC-15Thin';src: url('webfonts/31B196_5_0.eot');src: url('webfonts/31B196_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31B196_5_0.woff2') format('woff2'),url('webfonts/31B196_5_0.woff') format('woff'),url('webfonts/31B196_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansC-95BlackIt';src: url('webfonts/31B196_6_0.eot');src: url('webfonts/31B196_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31B196_6_0.woff2') format('woff2'),url('webfonts/31B196_6_0.woff') format('woff'),url('webfonts/31B196_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansC-85HeavyIt';src: url('webfonts/31B196_7_0.eot');src: url('webfonts/31B196_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31B196_7_0.woff2') format('woff2'),url('webfonts/31B196_7_0.woff') format('woff'),url('webfonts/31B196_7_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansC-95Black';src: url('webfonts/31B196_8_0.eot');src: url('webfonts/31B196_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31B196_8_0.woff2') format('woff2'),url('webfonts/31B196_8_0.woff') format('woff'),url('webfonts/31B196_8_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansC-15ThinIt';src: url('webfonts/31B196_9_0.eot');src: url('webfonts/31B196_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31B196_9_0.woff2') format('woff2'),url('webfonts/31B196_9_0.woff') format('woff'),url('webfonts/31B196_9_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansC-85Heavy';src: url('webfonts/31B196_A_0.eot');src: url('webfonts/31B196_A_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31B196_A_0.woff2') format('woff2'),url('webfonts/31B196_A_0.woff') format('woff'),url('webfonts/31B196_A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansC-25ExtraLight';src: url('webfonts/31B196_B_0.eot');src: url('webfonts/31B196_B_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31B196_B_0.woff2') format('woff2'),url('webfonts/31B196_B_0.woff') format('woff'),url('webfonts/31B196_B_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansC-25ExtraLightIt';src: url('webfonts/31B196_C_0.eot');src: url('webfonts/31B196_C_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31B196_C_0.woff2') format('woff2'),url('webfonts/31B196_C_0.woff') format('woff'),url('webfonts/31B196_C_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansC-35Light';src: url('webfonts/31B196_D_0.eot');src: url('webfonts/31B196_D_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31B196_D_0.woff2') format('woff2'),url('webfonts/31B196_D_0.woff') format('woff'),url('webfonts/31B196_D_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansC-35LightIt';src: url('webfonts/31B196_E_0.eot');src: url('webfonts/31B196_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31B196_E_0.woff2') format('woff2'),url('webfonts/31B196_E_0.woff') format('woff'),url('webfonts/31B196_E_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansC-45RegularIt';src: url('webfonts/31B196_F_0.eot');src: url('webfonts/31B196_F_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31B196_F_0.woff2') format('woff2'),url('webfonts/31B196_F_0.woff') format('woff'),url('webfonts/31B196_F_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansC-45Regular';src: url('webfonts/31B196_10_0.eot');src: url('webfonts/31B196_10_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31B196_10_0.woff2') format('woff2'),url('webfonts/31B196_10_0.woff') format('woff'),url('webfonts/31B196_10_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansC-65BoldIt';src: url('webfonts/31B196_11_0.eot');src: url('webfonts/31B196_11_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31B196_11_0.woff2') format('woff2'),url('webfonts/31B196_11_0.woff') format('woff'),url('webfonts/31B196_11_0.ttf') format('truetype');}
+ 
+
+
+
+
+
+
+
+
+

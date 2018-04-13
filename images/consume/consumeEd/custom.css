@@ -1,0 +1,19 @@
+
+a {
+	text-decoration: none;
+}
+
+[class*='space-'] {
+	margin: .75em 0;
+	}
+
+
+.rectangle {
+	background-color: #2700ff;
+	border-radius:4px;
+	height:4em;
+}
+
+.chaz {
+    background-image: url(img/pattern.png);
+}

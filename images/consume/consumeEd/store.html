@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Consume Culture</title>
+<!-- <link rel="stylesheet" type="text/css" href="spacegrid.css"> -->
+<!-- <link rel="stylesheet" type="text/css" href="custom.css"> -->
+
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="fonts.css">
+<!-- <meta name="viewport" content="width=device-width" /> -->
+</head>
+<body>
+	<div id = "splash">
+	</div>
+
+
+</body>
+
+<script>
+
+	var prodDes = ["Cost Co. Slim Fit Tee<br>60.00",
+				"Checkmark Regular Tee<br>60.00",
+				"Superb Slim Fit Tee<br>SOLD OUT",
+				"Consume Classic Slim Fit Tee<br>60.00",
+				"Sivel Long Sleeve Tee<br>60.00",
+				"Tom on a Hill Slim Fit Tee<br>60.00",
+				"Ad ID As Ultra Kicks<br>260.00",
+				"Holey Jeans<br>100.00",
+				"4044 Black Sweater<br>SOLD OUT",
+				"Superb Slim Fit Tee Again<br>60.00",
+				"No Title Slim Fit Tee<br>60.00",
+				"CONSVME Regular Fit Tee<br>60.00",
+				"American Hat Apparel<br>55.00",
+				"Ad ID As Trackstar Tee<br>60.00",
+				"Everyday Low Tee<br>60.00",
+				"Explosive Bomber<br>150.00",
+				"Feel the Feeling Experience<br>400.00",
+				"Big Con Poster<br>SOLD OUT",
+				"Size Meal Poster<br>45.00",
+				"6 Meals a Day Poster<br>45.00",
+				"Hard Work Pays Off Poster<br>SOLD OUT",
+				"Enter to Win<br>FREE"]
+
+	var products = 22;
+	var merch = document.createElement('div');
+	merch.id = "merchandise";
+
+	var title = document.createElement('p');
+	title.innerHTML = "Shop//";
+
+	merch.appendChild(title);
+
+	for(var i=0; i<products; i++){
+		var module = document.createElement('div');
+		module.className = "module";
+
+		var background = document.createElement('div');
+		background.className = "prodBG";
+		background.style.backgroundImage = "url('../img/product/" + (i+1) +".jpg')";
+		module.appendChild(background);
+
+		var description = document.createElement('div');
+		description.className = "description";
+		var desText = document.createElement('p');
+		desText.innerHTML = prodDes[i];
+
+		description.appendChild(desText);
+
+		module.appendChild(description);
+
+		module.addEventListener("click", popUp);
+
+		merch.appendChild(module);
+	}
+
+	document.body.appendChild(merch);
+
+	var popUpCheck = false;
+
+	function popUp(){
+		if (!popUpCheck) {
+			var popUp = document.createElement('div');
+			popUp.id = "popUp";
+
+			document.body.appendChild(popUp);
+
+			var overlay = document.createElement('div');
+			overlay.className = "overlay";
+
+			// popUp.appendChild(overlay);
+
+			var message = document.createElement('p');
+			message.innerHTML = "&#34The consumption society has made us feel that happiness lies in having things, and has failed to teach us the happiness of not having things.&#34<br><span id='quoteName'>-Elise Boulding</span>";
+
+			overlay.appendChild(message);
+
+			var learnMore = document.createElement('a');
+			learnMore.href = "https://vimeo.com/ondemand/minimalismfilm/153518223";
+			var learnMoreDes = document.createElement('p');
+			learnMoreDes.innerHTML = "Learn More";
+			learnMoreDes.id = "learnMore";
+
+			learnMore.appendChild(learnMoreDes);
+			overlay.appendChild(learnMore);
+
+			document.body.appendChild(overlay);
+		} else {
+			document.getElementById('popUp').remove();
+		}
+
+		popUpCheck = !popUpCheck;
+	}
+
+
+</script>
+</html>

@@ -46,23 +46,18 @@
 
 				<div class="project-info__right">
 					<a href="https://www.instagram.com/consumeculture/" target="_blank"><li class="project-info__list-right b-button cb plb">SOCIAL MEDIA</li></a>
-					<a href="../../images/we/branding_guide.pdf" target="_blank"><li class="project-info__list-right b-button cb plb">ONLINE STORE</li></a>  
+					<a href="../../images/consume/consumeEd/index.html" target="_blank"><li class="project-info__list-right b-button cb plb">ONLINE STORE</li></a>  
 				</div>
 
 			</div>
-			
+
 			<div class="project-hero rising__1"></div>
 				<div class="project__copy">
 				<div class="bdy bdy__h">Statement</div>
 				<div class="bdy bdy__c">How might we help the general public realize their over-investment in material goods? It is a look towards minimalism. Removing the noise from your life — the space you fill with empty goods with of zero value, unless someone says it has it. <br>You have to question the value of the contents you own and continue to buy — <i>Do you <b>Really</b> need this?</i>The objective we hope to push with this campaign, is self-realizations. Acknowledging that you, as an individual are putting material objects, labeled as high value, before yourself.</div>
 			</div>
 			
-			<!-- <div class="project-hero rising__2"></div>
-
-			<div class="project-hero-two">
-				<div class="project-hero-two__half project-hero-two__half--l h-1 rising__5"></div>
-				<div class="project-hero-two__half project-hero-two__half--r h-2 rising__4"></div>
-			</div> -->
+			<div class="project-hero rising__2"></div>
 
 			<div class="project__copy">
 				<div class="bdy bdy__h">Concept</div>
@@ -71,36 +66,43 @@
 
 		<!-- 	<div class="body-h body-h__mHead">“Someone once told me not to bite off more than i could chew. I said id rather choke on greatness than nibble on mediocrity.”</div>
  -->
-			<!-- <div class="project-hero rising__3"></div> -->
+			<div class="project-hero rising__6"></div>
 
 			<div class="project__copy">
 				<div class="bdy bdy__h">Brands</div>
 				<div class="bdy bdy__c">We decided to rip off other brands, getting their logos, and putting our name on them. This included many of the popular consumer brands we see today, like: Nike, Adidas, Supreme, McDonalds, Costco, and Walmart. The idea is to sell clothing with the word "Consume" replacing the brand names, but styled using the same look. </div>
 			</div>
 
-			<div class="project-hero-break"></div>
+			<div class="project-hero rising__3"></div>
 
 			<div class="project__copy">
 				<div class="bdy bdy__h">Execution</div>
 				<div class="bdy bdy__c">We decided to rip off other brands, getting their logos, and putting our name on them. This included many of the popular consumer brands we see today, like: Nike, Adidas, Supreme, McDonalds, Costco, and Walmart. The idea is to sell clothing with the word "Consume" replacing the brand names, but styled using the same look. </div>
 			</div>
 
-			<div class="project-hero-break"></div>
+<!-- 			
+			<div class="project-hero-two">
+				<div class="project-hero-two__half project-hero-two__half--l h-1"></div>
+				<div class="project-hero-two__half project-hero-two__half--r h-2"></div>
+			</div> -->
+
+			<div class="project-hero rising__5"></div>
+
+
 
 			<div class="project__copy">
 				<div class="bdy bdy__h">Online Store</div>
 				<div class="bdy bdy__c"><a href="https://www.instagram.com/consumeculture/" target="_blank" style="color: red; text-decoration: underline;"><b>Consume Culture</b></a> — Posing as a false retailer, we gave people the impression they could purchase our content for extravagant prices. Only to prompt them with an alternative method to living life — Minimalism.</div>
 			</div>	
 
-			<div class="project-hero-break"></div>	
+			<div class="project-hero rising__4"></div>	
 
 			<div class="project__copy">
 				<div class="bdy bdy__h">Instagram</div>
 				<div class="bdy bdy__c"><a href="https://www.instagram.com/consumeculture/" target="_blank" style="color: red; text-decoration: underline;"><b>@ConsumeCulture</b></a> — To gain traction on our online store, we use Instagram as a primary place of advertisement. Redirecting users to our site, as well as counting the likes, growth and view on our page. This was all before Instagram had their analytics built in to track users and activity.</div>
 			</div>
-			<div class="project-hero-break"></div>
+			<div class="project-hero rising__7"></div>
 
-			<!-- <div class="project-hero rising__4"></div> -->
 			<div class="project__copy">
 				<div class="bdy bdy__h">Results</div>
 				<div class="bdy bdy__c">We posted the photos in one day, rapidly gathering followers and likes. The website activity was local to the southern Ontario, CA region, however it spread into Europe, but mostly in the Eastern United States.</div>

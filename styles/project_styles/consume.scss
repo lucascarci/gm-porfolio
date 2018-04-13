@@ -9,16 +9,26 @@
 		background-color: $orange;
 	}
 	@include e('2') {
-		@include bgImage('../../images/consume/consume.png',no-repeat,center,contain);
+		@include bgImage('../../images/consume/consumeProd/bigMacBigCon.jpg',no-repeat,center,cover);
 	}
 	@include e('3') {
-		@include bgImage('../../images/consume/consume.png',no-repeat,center,contain);
+		@include bgImage('../../images/consume/consumeProd/001.png',no-repeat,center,cover);
+		background-color: $orange;
 	}	
 	@include e('4') {
 		@include bgImage('../../images/consume/instagram.png',no-repeat,center-top,cover);
 	}
 	@include e('5') {
-		@include bgImage('../../images/consume/consume.png',no-repeat,center,contain);
+		@include bgImage('../../images/consume/consume_cover.png',no-repeat,center,contain);
+		background-color: $orange;
+	}
+	@include e('6') {
+		@include bgImage('../../images/consume/brands.png',no-repeat,center,cover);
+		background-color: $orange;
+	}
+	@include e('7') {
+		@include bgImage('../../images/consume/consumeProd/instapost2twofournine.jpg',no-repeat,center,cover);
+		// background-color: $orange;
 	}
 }
 

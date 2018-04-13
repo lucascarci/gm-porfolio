@@ -1,0 +1,324 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+
+#splash {
+	width: 100vw;
+	height: 85vh;
+	background-image: url('../img/splash.jpeg');
+	background-position: center;
+	background-size: cover;
+	/*opacity: 0;*/
+	animation: fadein 3s ease-in;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+#merchandise {
+	width: 100vw;
+	padding-top: 2vh;
+}
+
+#merchandise p {
+	font-family: "CoreSansC-65BoldIt", sans-serif;
+	font-size: 2em;
+}
+
+.module {
+	width: 50vw;
+	height: 50vw;
+	position: relative;
+	/*background-color: #222222;*/
+	/*background-size: 100% 100%;
+	background-position: center;*/
+	transition-duration: 400ms;
+	transition-timing-function: ease-out;
+	float: left;
+}
+
+.module:hover .prodBG{
+	background-size: 130% 130%;
+	background-position: center;
+	opacity: .1;
+	margin: 0;
+}
+
+.prodBG {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-size: 100% 100%;
+	background-position: center;
+	transition-duration: 400ms;
+	transition-timing-function: ease-out;
+	opacity: .2;
+}
+
+.description {
+	padding: 20.5vw 0;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.description p {
+	font-family: "CoreSansC-25ExtraLight", sans-serif !important;
+	font-size: .8em !important;
+	opacity: 1;
+}
+
+#popUp {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 80vw;
+	height: 100vh;
+	padding: 28vh 10vw 0 10vw;
+	/*background-color: red;*/
+	filter: brightness(.7);
+	background:
+		linear-gradient(
+	      rgba(175, 0, 0, 0.45), 
+	      rgba(175, 0, 0, 0.45)
+	    ),
+	    url('http://media2.s-nbcnews.com/j/newscms/2016_47/1809426/ss-161125-twip-mn-07-black-friday_607015dfdde918bb6586ba5103d75ccb.nbcnews-ux-2880-1000.jpg');
+		/*url('https://i.ytimg.com/vi/YiLZQFX4wA4/maxresdefault.jpg');*/
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+
+.overlay p {
+	font-family: 'CoreSansC-55Medium';
+	text-transform: uppercase;
+	font-size: 3.0em;
+	color: #ffffff;
+	z-index: 100;
+}
+
+#quoteName {
+	font-family: 'CoreSansC-55Medium';
+	font-size: .7em;
+	z-index: 100;
+}
+
+#learnMore {
+	font-family: 'CoreSansC-45Regular' !important;
+	font-size: 1.4em !important;
+	width: 35vw;
+	margin: 7vh auto 0;
+	padding: 2.8vw .3vw;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    letter-spacing: 0.3em;
+    transition: all 0.7s;
+    cursor: pointer;
+    z-index: 100;
+}
+
+        
+#learnMore:hover { 
+	background-color: #fff;
+    color: #2f2f2f;
+    transition: all 0.7s;
+}
+
+.overlay {
+    background-image: url(../img/pattern.png);
+    position: fixed;
+    top: 0;
+	left: 0;
+	width: 80vw;
+	height: 100vh;
+	padding: 35vh 10vw 0 10vw;
+    z-index: 1;
+    background-repeat: repeat;
+    background-size: 3px;
+    opacity: 1;
+    text-align: center;
+}
+
+.overlay a{
+	text-decoration: none;
+}
+
+
+
+
+
+
+@media screen and (min-width: 981px){
+
+#splash {
+	width: 100vw;
+	height: 85vh;
+	background-image: url('../img/splash.jpeg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*opacity: 0;*/
+	animation: fadein 3s ease-in;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+#merchandise {
+	width: 75vw;
+	margin: 0 auto;
+	padding-top: 2vh;
+}
+
+#merchandise p {
+	font-family: "CoreSansC-65BoldIt", sans-serif;
+	font-size: 2em;
+}
+
+.module {
+	width: 23vw;
+	height: 23vw;
+	position: relative;
+	/*background-color: #222222;*/
+	/*background-size: 100% 100%;
+	background-position: center;*/
+	opacity: 1;
+	transition-duration: 400ms;
+	transition-timing-function: ease-out;
+	float: left;
+	margin: 1vw;
+}
+
+.module:hover .prodBG{
+	background-size: 130% 130%;
+	background-position: center;
+	opacity: .1;
+}
+
+.module:hover div p{
+	opacity: 1;
+}
+
+.prodBG {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-size: 100% 100%;
+	background-position: center;
+	transition-duration: 400ms;
+	transition-timing-function: ease-out;
+	opacity: 1;
+}
+
+
+.description {
+	padding: 9.2vw 0;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.description p {
+	font-family: "CoreSansC-25ExtraLight", sans-serif !important;
+	font-size: .8em !important;
+	opacity: 0;
+}
+
+#popUp {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 80vw;
+	height: 100vh;
+	padding: 28vh 10vw 0 10vw;
+	/*background-color: red;*/
+	filter: brightness(.7);
+	background:
+		linear-gradient(
+	      rgba(175, 0, 0, 0.45), 
+	      rgba(175, 0, 0, 0.45)
+	    ),
+	    url('http://media2.s-nbcnews.com/j/newscms/2016_47/1809426/ss-161125-twip-mn-07-black-friday_607015dfdde918bb6586ba5103d75ccb.nbcnews-ux-2880-1000.jpg');
+		/*url('https://i.ytimg.com/vi/YiLZQFX4wA4/maxresdefault.jpg');*/
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+
+.overlay p {
+	font-family: 'CoreSansC-55Medium';
+	text-transform: uppercase;
+	font-size: 1.7em;
+	color: #ffffff;
+	z-index: 100;
+}
+
+#quoteName {
+	font-family: 'CoreSansC-55Medium';
+	font-size: .6em;
+	z-index: 100;
+}
+
+#learnMore {
+	font-family: 'CoreSansC-45Regular' !important;
+	font-size: 1em !important;
+	width: 20vw;
+	margin: 2vw auto 0;
+	padding: 1.8vw .3vw;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    letter-spacing: 0.3em;
+    transition: all 0.7s;
+    cursor: pointer;
+    z-index: 100;
+}
+
+        
+#learnMore:hover { 
+	background-color: #fff;
+    color: #2f2f2f;
+    transition: all 0.7s;
+}
+
+.overlay {
+    background-image: url(../img/pattern.png);
+    position: fixed;
+    top: 0;
+	left: 0;
+	width: 80vw;
+	height: 100vh;
+	padding: 28vh 10vw 0 10vw;
+    z-index: 1;
+    background-repeat: repeat;
+    background-size: 3px;
+    opacity: 1;
+    text-align: center;
+}
+
+.overlay a{
+	text-decoration: none;
+}
+
+}
