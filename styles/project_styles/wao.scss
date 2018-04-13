@@ -1,0 +1,44 @@
+@import '../_typography.scss';
+@import '../_var.scss';
+
+
+.rising {
+
+	@include e('1') {
+		@include bgImage('../../images/we/we_gold_2.png',no-repeat,center,contain);
+		background-color: #282626;
+	}
+	@include e('2') {
+		@include bgImage('../../images/we/branding_guide/05.png',no-repeat,center,cover);
+		background-color: #282626;
+	}
+	@include e('3') {
+		@include bgImage('../../images/we/branding_guide/07.png',no-repeat,center,cover);
+		background-color: #282626;
+	}	
+	@include e('4') {
+		@include bgImage('../../images/we/branding_guide/08.png',no-repeat,center,cover);
+		background-color: #282626;
+	}
+	@include e('5') {
+		@include bgImage('../../images/we/edi_page.png',no-repeat,center,cover);
+		background-color: #282626;
+	}	
+	@include e('6') {
+		@include bgImage('../../images/we/edi_page2.png',no-repeat,center,cover);
+		background-color: #282626;
+	}	
+	@include e('7') {
+		@include bgImage('../../images/we/we_gold_2.png',no-repeat,center,cover);
+		background-color: #282626;
+	}	
+	@include e('8') {
+		@include bgImage('../../images/we/we_gold_2.png',no-repeat,center,cover);
+		background-color: #282626;
+	}	
+	@include e('9') {
+		@include bgImage('../../images/we/we_gold_2.png',no-repeat,center,cover);
+		background-color: #282626;
+	}
+}
+

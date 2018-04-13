@@ -44,8 +44,8 @@
 				<div class="project-info__center">Using three.js (a library extension of WebGL) and basic JavaScript elements, we we’re tasked with visualizing some climate change, into an informational and educational way. I focused on the leading causes of climate change, and the potential threats they pose, as well as the possible ways to counter it.</div>
 
 				<div class="project-info__right">
-					<li class="project-info__list-right">> InVision Mockup</li>
-					<li class="project-info__list-right"></li>
+<!-- 					<li class="project-info__list-right">> InVision Mockup</li>
+ -->					<li class="project-info__list-right"></li>
 				</div>
 			</div>
 			<div class="project-hero metro__1"></div>

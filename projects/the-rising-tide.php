@@ -47,6 +47,11 @@
 					<li class="project-info__list-right b-button cb plb"><a>LAUNCH PROJECT</a></li>
 					<li class="project-info__list-right b-button cb-l plb"><a>GITHUB REPOSITORY</a></li>
 				</div>
+
+				<div class="project-info__right">
+					<a href="../../images/we/weAreAllHuman.pdf" target="_blank"><li class="project-info__list-right b-button cb plb">LAUNCH PROJECT</li></a>
+					<a href="../../images/we/weAreAllHuman.pdf" target="_blank"><li class="project-info__list-right b-button cb-l plb">GITHUB REPOSITORY</li></a>
+				</div>
 			</div>
 			<div class="project-hero rising__1"></div>
 			<div class="caption">Rendered in Autodesk Maya</div>

@@ -840,14 +840,27 @@ body {
 
 .cb {
 	background-color: $orange;
+
+	a:link {
+		color: #fff;
+	}
+	a:hover {
+		color: #fff;
+	}
+	
 }
 
 .cb-l {
 	background-color: $yellow;
 	color: $type-blk;
-	&:hover {
+
+	a:link {
 		color: #fff;
 	}
+	a:hover {
+		color: #fff;
+	}
+	
 }
 
 

@@ -584,11 +584,17 @@ body {
 
 .cb {
   background-color: #f8531b; }
+  .cb a:link {
+    color: #fff; }
+  .cb a:hover {
+    color: #fff; }
 
 .cb-l {
   background-color: #fcc603;
   color: #27262c; }
-  .cb-l:hover {
+  .cb-l a:link {
+    color: #fff; }
+  .cb-l a:hover {
     color: #fff; }
 
 .sandbox {
